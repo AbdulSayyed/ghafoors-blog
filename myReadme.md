@@ -166,7 +166,7 @@ zh-hans:
 > Note: This is the file where most variables value is set.
 
 
-### Content folder
+### Step 4. Content folder
 
 - It contains following folders.
 
@@ -181,5 +181,106 @@ zh-hans:
 ├── _index.md
 ├── series
 └── tags
+```
+
+#### What is _index.md
+
+- In HUgo files which starts from `_` are necessary to maintain folder structure. The _index.md file is a special file in Hugo used to define content for a list page (such as a section, taxonomy, or homepage) rather than a single content page.
+- Section Index Pages: When placed in a directory, _index.md defines the content and metadata for that section's index page. For example, placing _index.md in the content/blog/ directory would control the layout, content, and parameters of the example.com/blog/ section page.
+- Home Page: An _index.md file in the root of the content/ directory will define the content for the homepage.
+- Taxonomy Pages: When used in taxonomy directories (like tags or categories), _index.md defines the layout and content for the list page of that taxonomy.
+
+#### Creating posts directory structure
+
+- The structure for post would ideally look like the following:
+
+```txt
+content/
+└── blog/
+    ├── _index.md
+    └── posts/
+        ├── _index.md
+        ├── js/
+        │   ├── _index.md
+        │   ├── post1.md
+        │   ├── post2.md
+        │   ├── post3.md
+        │   ├── post4.md
+        │   └── post5.md
+        ├── python/
+        │   ├── _index.md
+        │   ├── post1.md
+        │   ├── post2.md
+        │   ├── post3.md
+        │   ├── post4.md
+        │   └── post5.md
+        ├── topic3/
+        │   ├── _index.md
+        │   ├── post1.md
+        │   ├── post2.md
+        │   ├── post3.md
+        │   ├── post4.md
+        │   └── post5.md
+```
+
+- The above seems fine, but contents can be further structured using `directories` referred as `leaf bundles` in Hugo. Hence the recommended structure would be as shown below.
+
+```txt
+content/
+└── blog/
+    └── posts/
+        └── js/
+            ├── _index.md
+            ├── post1/
+            │   ├── index.md
+            │   ├── image1.jpg
+            │   └── diagram.pdf
+            ├── post2/
+            │   └── index.md
+            ├── post3/
+            │   ├── index.md
+            │   ├── image2.png
+            │   └── notes.txt
+            ├── post4/
+            │   └── index.md
+            └── post5/
+                └── index.md
+
+```
+
+#### Benefits of Using Directories with index.md Files
+
+Resource Management:
+
+Bundling Resources: When you create a folder for a piece of content and place an index.md inside, you can also place related resources (images, files, etc.) in the same folder. This way, everything related to a specific piece of content is grouped together, making it easier to manage.
+Self-contained Content: Each folder acts as a self-contained unit of content, which is particularly useful for complex pages that have multiple associated assets.
+URL Structure:
+
+Clean URLs: Using index.md within a directory results in cleaner URLs. For example, a page located at content/landing/index.md would be accessible at /landing/ instead of /landing.html.
+SEO Friendly: Clean URLs are generally more SEO-friendly and user-friendly, improving the overall navigation experience on your site.
+Hugo Page Bundles:
+
+Leaf Bundles: These are used for single pages that are self-contained with their resources. The directory is treated as a single page.
+Branch Bundles: These are used for sections that contain multiple pages. A _index.md file in a directory signifies a branch bundle.
+
+#### Adding posts submenu into blog main menu
+
+- To do so, `posts/_index.md` is changed as follows:
+
+```txt
+---
+title: "Posts"
+menu:
+  main:
+    identifier: posts
+    parent: blog
+    weight: 2
+    params:
+      icon:
+        vendor: fas
+        name: blog
+#description: "Explore posts on various topics"
+---
+
 ```
 
