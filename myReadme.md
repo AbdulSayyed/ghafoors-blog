@@ -1,3 +1,8 @@
+---
+
+
+---
+
 ## Suli blog
 
 ### Step 1. Cloning and running
@@ -156,15 +161,13 @@ zh-hans:
   9. Pwa
   10. Search
   11. mermaid
-  12. Hugopress 
-
+  12. Hugopress
 
 - Under `header` brand value changed to `SB` from `HB` to present Sulaiman Blog.
 - `Header/Socials` parameters can be changed here, comment what is not needed. These social icons are present on the top, they are changed from here. To change footer social parameters change variable values under `footer/socials`.
 - Under `terms` variable `paginate` value is set to 30 instead of 12.
 
 > Note: This is the file where most variables value is set.
-
 
 ### Step 4. Content folder
 
@@ -185,8 +188,8 @@ zh-hans:
 
 #### What is _index.md
 
-- In HUgo files which starts from `_` are necessary to maintain folder structure. The _index.md file is a special file in Hugo used to define content for a list page (such as a section, taxonomy, or homepage) rather than a single content page.
-- Section Index Pages: When placed in a directory, _index.md defines the content and metadata for that section's index page. For example, placing _index.md in the content/blog/ directory would control the layout, content, and parameters of the example.com/blog/ section page.
+- In Hugo files which starts from `_` are necessary to maintain folder structure. The _index.md file is a special file in Hugo used to define content for a list page (such as a section, taxonomy, or homepage) rather than a single content page.
+- Section Index Pages: When placed in a directory, _index.md defines the content and metadata for that section's index page. For example, placing `_index.md` in the content/blog/ directory would control the layout, content, and parameters of the example.com/blog/ section page.
 - Home Page: An _index.md file in the root of the content/ directory will define the content for the homepage.
 - Taxonomy Pages: When used in taxonomy directories (like tags or categories), _index.md defines the layout and content for the list page of that taxonomy.
 
@@ -284,3 +287,4 @@ menu:
 
 ```
 
+- MY sister name is Fatima

@@ -1,5 +1,5 @@
 ---
-title: HB Theme Template
+title: Sulaiman's Blog
 menu:
   main:
     name: Home
