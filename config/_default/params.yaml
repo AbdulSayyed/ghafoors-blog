@@ -122,3 +122,6 @@ hugopress:
       hooks:
         hb-blog-sidebar:
           weight: 2
+
+icons:
+  throw_on_error: false

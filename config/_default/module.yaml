@@ -13,8 +13,8 @@ imports:
 
   # icons modules
   - path: github.com/hugomods/icons/vendors/font-awesome
-  # - path: github.com/hugomods/icons/vendors/mdi
   # - path: github.com/hugomods/icons/vendors/simple-icons
+  # - path: github.com/hugomods/icons/vendors/mdi
   # - path: github.com/hugomods/icons/vendors/tabler
   # - path: github.com/hugomods/icons/vendors/feather
 
@@ -53,6 +53,10 @@ imports:
   # other modules
   # - path: github.com/hugomods/google-analytics
   # - path: github.com/hugomods/google-adsense
+
+  # bootstrap module to avoid sass warning
+  # path: github.com/twbs/bootstrap@main
+  #- path: github.com/gohugoio/hugo-mod-bootstrap-scss/v5
 
   # recommended modules
   # check which modules were imported by recommended module by "hugo mod graph | grep recommended".
