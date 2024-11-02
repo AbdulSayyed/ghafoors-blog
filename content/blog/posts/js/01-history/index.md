@@ -4,7 +4,7 @@ draft: false
 title: "History of JavaScript"
 categories:
   - "Programming Languages"
-description: "A detailed overview of JavaScript's history and development."
+description: "A brief overview of JavaScript's history and development."
 tags:
   - "JavaScript"
   - "History"
@@ -18,85 +18,118 @@ images:
 
 [//]:# ( the original date was 2016-04-17)
 
-## Early Web
+## The Early Web
 
-When the World Wide Web was first created in the early 1990s. Web pages used to  be static there was no animation and there was no way you can interact with the pages.
+In the early 1990s, when the World Wide Web was first introduced, web pages were entirely static. There was no animation, no interactivity—just text and images with basic styling. This led developers to imagine ways for users to interact directly with web pages and receive instant responses to actions, without relying on server requests for every interaction.
 
-Thus, programmer started  thinking of Being able to interact with  web pages and  have it do something in response to some  actions. The answer was simple to send a request to a server and get the work done. But this is not what was required it was already present . The idea was that the browser should complete the task locally without making a request to a server.
+The goal became to create a programming solution that allowed the browser to handle tasks locally, enhancing speed and interactivity.
 
-## Web Browsers
+### Web Browsers
 
-At the time, there were two browsers that were reasonably popular. Netscape Navigator and Internet Explorer. Netscape was the first to bring out a programming language that would allow web pages to become interactive. 
+Two browsers dominated the early web era: Netscape Navigator and Internet Explorer. Netscape, eager to innovate, introduced a programming language called **LiveScript** to enable basic web interactivity. LiveScript was interpreted by the browser directly, without needing a plug-in or compilation. This marked a major step toward modern web interactivity.
 
-They called it Live script and it was integrated into the browser. What it means was that the browser would interpret the commands directly without requiring the code to be compiled and without requiring a plug-in to be able to run it.
+Around the same time, the Java programming language introduced **applets**, small applications embedded in web pages, which required a plug-in to run. Unlike LiveScript, these applets could provide desktop-like interactions within the browser.
 
-I have intentionally used the word plug-in because at the same time when this effort was going on  another language called Java introduced a concept of an applet. So that applet can  run as a plug-in to the web page and  interact with the user in a more or less same way as other application on the desktop does.
+### LiveScript to JavaScript: A Quick but Controversial Rebranding
 
-## LiveScript to JavaScript { quick and bad decision }
+Although LiveScript had little in common with Java, Netscape chose to rename it **JavaScript** in a marketing move to capitalize on Java’s popularity. This led to the ongoing misconception that JavaScript and Java are closely related, although they serve very different purposes and are distinct languages.
 
-But here we are not going to talk about Java language. Coming back to our topic of  a Live script. It was just a scripting language that needed a host environment such as a web page so that it can run within that host. Netscape realized the popularity of Java language and changed the name of their scripting language from Live Script to JavaScript. And since then this confusion started that Java and JavaScript both have something to do with each other.
+### Microsoft's Response: JScript
 
-## Envious Microsoft { Almost copied JavaScript and named it JScript}
+In response to JavaScript’s popularity, Microsoft introduced **VBScript**, a scripting language based on BASIC, followed by **JScript**, a JavaScript alternative compatible with Internet Explorer. JScript was Microsoft's attempt to compete with JavaScript while adhering to similar standards.
 
-Microsoft also introduced vb Script which was based on BASIC programming language but envied with the popularity of JavaScript they also introduced a local version of JavaScript called JScript. 
+### Microsoft and TypeScript: A Strategic Move
 
-## Standardization
+The latest major release, ECMAScript 6 (ES6), was published in 2015, introducing significant new features like classes, block scope, and modules. Microsoft’s **TypeScript** language provides ES6 compatibility and is especially useful for developers familiar with C# or Java. TypeScript compiles to JavaScript, allowing developers to write code in a structured, object-oriented manner that JavaScript engines can understand.
 
-In 1996, JavaScript was presented to International Standard body called ECMA. Since then ECMA became the responsible for the subsequent development of  ECMAScript . It should be noted that it is not a JavaScript but ECMAScript that is being  further developed  but its trading as a JavaScript.
+## JavaScript in Host Environments
 
-It is worthwhile to note and understand that a body such as ECMA does not write any language. It only defines what a proposed language should do. 
-It is the implementer who is responsible to fully implement the specification in its program also known  as JavaScript engine.
+JavaScript is unique in that it requires a **host environment**—a program that provides all the facilities JavaScript needs to operate. Today, web browsers serve as the most common host environment, but JavaScript is also widely used on servers with **Node.js**. Not all browsers or environments support every feature in every ECMAScript version, so compatibility can vary. To check compatibility, see [this guide](http://kangax.github.io/compat-table/es6/).
 
-Before we start talking about JavaScript engines, first look at the history of Standard JavaScript. That is since it was published by ECMA standard body. The very first edition of standardized JavaScript was published in June 1997, known as **ECMA-262**. Following is a list of the ECMA-262 subsequent edition to date.
+### JavaScript Engines
 
- . *ECMA-262-first edition published in 1997*
- . *ECMA-262-second edition published in 1998*
- . *ECMA-262-third edition published in 1999*
- . *ECMA-262-fifth edition published in 2009*
- . *ECMA-262-5.1 edition published in 2011*
- . *ECMA-262-sixth edition published in 2015.*
+JavaScript engines are the programs that interpret and execute JavaScript code. These engines are optimized to perform JavaScript functions efficiently within the host environment.
 
-## Clever Move by Microsoft
+The earliest engine, **SpiderMonkey**, was created by Brendan Eich at Netscape for Netscape Navigator and written in C++. **Rhino**, another early engine, was implemented in Java by Norris Boyd. **V8**, Google’s high-performance JavaScript engine, is widely used today and powers both Google Chrome and Node.js, with support for many ES6 features. Apple’s **JavaScriptCore**, also known as WebKit, is another popular engine found in Safari.
 
-The latest edition is the sixth edition also known as ECMAScript-6 released in June 2015. To date, not a single platform exist that fully implements ECMAScript-6 with an exception of Microsoft Typescript Language which claims to implement ECMAScript 6th edition. But it has its own reasons. In this latest edition, it is a first time that a computer's high-level language concepts such as classes , block scope and much more , are  specified and thus implemented by Microsoft. 
+This list is only a brief overview of JavaScript’s evolution. With technology advancing rapidly, JavaScript will continue evolving, likely remaining the "assembly language of the web" for years to come.
 
-Microsoft has been the pioneer in implementing because programmer coming from its main language C# Sharp background does not have to spend time learning the traditional JavaScript good and bad parts. They only have to learn typescript, write programs as they are written like in Java or C#, transpile them into JavaScript code and run it where JavaScript code is expected. So the current wave is to use, transpilers, linters , module systems and so on.
+## Standardization and ECMAScript
 
-## The big change
+In 1996, JavaScript was submitted to the international standards organization ECMA, where it was formalized as **ECMAScript**. Although the language we know as JavaScript is based on ECMAScript specifications, JavaScript remains the widely recognized and colloquial name. ECMA doesn’t develop code; instead, it defines specifications that implementers follow to create JavaScript engines.
 
-Coming back to the history of JavaScript, the biggest edition of standardized JavaScript was the third edition published in 1999. According to its creator Brenden Eich **"The things which we take as granted like nested function, regular expression, switch statements  were not present before. so this edition was a big one."**
+The first standardized edition, **ECMA-262**, was published in June 1997. Subsequent editions include:
 
-As you can see that,  in above list of specification  ES-4 is not present because  it never happened. Though it did exist yet never came into being due to many conflicts. in fact after ECMA-262 3rd edition came the fifth edition where **strict mode** was introduced. { but it does not mean, the things which were part of ES-4 were abandoned. They are still coming slowly with newer version of ECMAScripts}
+- **ECMA-262 1st Edition**: 1997
+- **ECMA-262 2nd Edition**: 1998
+- **ECMA-262 3rd Edition**: 1999
+- **ECMA-262 5th Edition**: 2009
+- **ECMA-262 5.1 Edition**: 2011
+- **ECMA-262 6th Edition (ES6/ES2015)**: 2015
+- **ECMA-262 7th Editions Post-ES6**: 2016
+- **ECMA-262 8th Editions**: 2017
+- **ECMA-262 9th Editions**: 2018
+- **ECMA-262 10th Editions**: 2019
+- **ECMA-262 11th Editions**: 2020
+- **ECMA-262 12th Editions**: 2021
+- **ECMA-262 13th Editions**: 2021
 
-## Host Environment
+### Major Milestone: ECMAScript 3
 
-Specification of any language is important but without the implementation it serves no purpose. Since JavaScript is a scripting language that requires a host environment or a program to run it. The hosting program has to provide all the facilities specified in latest specification. but it does not happen overnight. Presently, we have browsers who acts as JavaScript host , but not all browsers may implement everything that is present in all specifications. 
+One of JavaScript’s most significant updates came with **ECMAScript 3** in 1999, which introduced essential features like nested functions, regular expressions, and switch statements. According to Brendan Eich, JavaScript’s creator, this update was pivotal, introducing many features we now take for granted.
 
-In this brief history, it is not possible to talk about all the stuff supported or not supported  by which platform as it would take the whole day and it would not finish. If you ever wondered to find out more about what is supported by what you can visit this [site](http://kangax.github.io/compat-table/es6/)
+Notably, **ECMAScript 4** was never officially released due to conflicting opinions among developers. ECMAScript 5 later introduced **strict mode**, which made JavaScript safer and more predictable.
 
-By now you should  have some idea about  this scripting language and its host environment. By far the most popular host environments are web browsers. But with the popularity of Node js. It has also become the most used host environment on computers without the need of any browsers.
+### Key Features in ES6
 
-## Engines drives it
+ECMAScript 6 (2015) introduced several awaited features, including:
 
-Before we finish this topic, let's look at some popular JavaScript engines, the word engine was probably used instead of a program, because of its core functionality. It is this program which runs the JavaScript code when it sees it in the host environment.
+- **`const`**: for immutable variables
+- **`let`**: for block-scoped variables
+- **Arrow functions (`=>`)**: for cleaner syntax and lexical `this`
+- **Classes**: for an easier syntax for object-oriented programming
+- **Symbols**: for unique, unchangeable properties useful in debugging
+- **Generators**: for creating iterators and handling asynchronous tasks
+- **Typed Arrays**: for handling binary data, useful in multimedia processing
 
-The first engine was created by the  JavaScript author Brendan Eich at Netscape Communications for Netscape Navigator, this engine is now an ECMA-262 edition-3 compliant that is, it conforms to the standard of ECMA-262 third edition. The code name for this engine was and still is Spider Monkey written in C++. 
+## Notable Feature of Other Editions
 
-Another engine written by Norris Boyd is called Rhino implemented in Java language. The most popular one these days is known as V8 from Google which excelled the performance when compared to Mozilla's engine  Trace Monkey and others. It is also used in Node js and gradually providing support for ECMAScript 6. Another popular used by apple in safari browser is a WebKit. Since who uses what may change with time thus, it is best to find out about them by searching the net.
+### JavaScript Beyond ES6 7th Edition
 
-The above is not by far a complete history of JavaScript Language but merely an introduction to this language. In computer technologies, things change by leaps and bounds and within next ten years time , there will be a lot of changes but at least for a decade or two JavaScript will be treated as an assembly language of the web as agreed by many.
+- Exponentiation operator (**): Simplifies exponent calculations, e.g., 2 ** 3 (instead of Math.pow(2, 3)).
+- Array.prototype.includes(): A method to check if an array includes a particular element, improving readability.
 
-## What is in ES-6
+### JavaScript 8th Edition
 
-ECAMScript-6 introduced main awaiting features such as immutable variables using `const` , block scoped variables and functions through `let`, arrow functions `=>`, classes making object-oriented programming easier, symbols for debugging , generators, typed arrays and much more for internationalization and localization.
+- async/await: Simplifies asynchronous code and handling promises.
+- Object.values() and Object.entries(): Makes it easier to work with object properties.
+- String padding (padStart and padEnd): Adds padding to strings to a specified length.
+- SharedArrayBuffer and Atomics: Enables low-level memory manipulation, crucial for multi-threaded operations in JavaScript.
 
-## Beyond ES-6
+### JavaScript 9th Edition
 
-As the technology grows our need will grow as well, and programmers will be requiring new ideas to be specified and then implemented. To date, there are already many proposed features for ES-7 and beyond. As mentioned above proposing new ideas , agreeing with them  and specifying is not all. The practical aspect is to see if it is implemented or not in the host environment. At the moment, there is a huge gap in specification and implementation. Hopefully,  this gap will be narrowing down as the technology progress in right direction.
+- Rest/Spread properties for objects: Expands rest (...rest) and spread syntax (...spread) usage in objects.
+- Asynchronous Iteration: Introduces the for await...of loop for async operations.
+- Promise.finally(): Allows cleanup actions after a promise settles.
+- Regular Expression Enhancements: Adds s (dotAll) flag, Unicode property escapes, and lookbehind assertions for RegExp.
 
-## what is coming
+### JavaScript 10th Edition
 
+- Array.flat() and Array.flatMap(): Flattens nested arrays and maps while flattening.
+- Object.fromEntries(): Converts key-value pairs (from Map or arrays) into an object.
+- String.trimStart() and String.trimEnd(): Removes whitespace from the start or end of strings.
+- Optional catch binding: Allows omitting the catch parameter if not needed in error handling.
 
+### JavaScript 11th Edition
 
+- Nullish Coalescing Operator (??): Returns the right operand if the left is null or undefined.
+- Optional Chaining (?.): Safely accesses deeply nested properties.
+- BigInt: A new primitive data type for representing integers larger than the Number type can hold.
+- Promise.allSettled(): Returns a promise after all input promises are settled, regardless of the result.
 
+### JavaScript 12th Edition
 
+- Top-level await: Allows await to be used at the top level in modules.
+- Class Fields: Adds private and public fields and methods to class definitions.
+- Error Cause: Provides an optional cause property for better error context.
+- RegExp d Flag: Adds support for indexing the starting position of matches.

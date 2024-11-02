@@ -90,15 +90,15 @@
 
 ```json
 {
-  "name": "suliblogs",
-  "description": "Suliblogs contains all the work by Sulaiman Sayyed. This project is based on hbstack.",
+  "name": "ghafoors-blogs",
+  "description": "ghafoors-blogs contains all the work by Sulaiman Sayyed. This project is based on hbstack.",
   "scripts": {
     "dev": "hugo server --gc --enableGitInfo -D",
     "prod": "hugo server --gc --disableFastRender --enableGitInfo --renderToDisk --minify -e production -p 1314"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AbdulSayyed/suliblog.git"
+    "url": "git+https://github.com/AbdulSayyed/ghafoors-blog.git"
   },
   "author": "Abdul Ghafoor Sayyed <s.ghafoor@outlook.com>",
   "license": "MIT",
@@ -124,7 +124,7 @@
 - First two lines are changed as shown below.
 
 ```yaml
-baseURL: https://github.com/AbdulSayyed/suliblogs.git
+baseURL: https://github.com/AbdulSayyed/ghafoors-blog.git
 title: Suli blogs
 ```
 
@@ -163,7 +163,7 @@ zh-hans:
   11. mermaid
   12. Hugopress
 
-- Under `header` brand value changed to `SB` from `HB` to present Sulaiman Blog.
+- Under `header` brand value changed to `SB` from `GB` to present Ghafoor's Blog.
 - `Header/Socials` parameters can be changed here, comment what is not needed. These social icons are present on the top, they are changed from here. To change footer social parameters change variable values under `footer/socials`.
 - Under `terms` variable `paginate` value is set to 30 instead of 12.
 
@@ -188,8 +188,8 @@ zh-hans:
 
 #### What is _index.md
 
-- In Hugo files which starts from `_` are necessary to maintain folder structure. The _index.md file is a special file in Hugo used to define content for a list page (such as a section, taxonomy, or homepage) rather than a single content page.
-- Section Index Pages: When placed in a directory, _index.md defines the content and metadata for that section's index page. For example, placing `_index.md` in the content/blog/ directory would control the layout, content, and parameters of the example.com/blog/ section page.
+- In Hugo files which starts from `_` are necessary to maintain folder structure. The `_index.md` file is a special file in Hugo, used to define content for a list page (such as a section, taxonomy, or homepage) rather than a single content page. In Hugo a section denotes the directory under `content` folder.
+- Section Index Pages: When placed in a directory, `_index.md` defines the content and metadata for that section's index page. For example, placing `_index.md` in the content/ folder would define the content section, similarly an `_index.md` under content/blog/ directory would define what is present under `blog` folder and how it is to organised.
 - Home Page: An _index.md file in the root of the content/ directory will define the content for the homepage.
 - Taxonomy Pages: When used in taxonomy directories (like tags or categories), _index.md defines the layout and content for the list page of that taxonomy.
 
@@ -286,5 +286,3 @@ menu:
 ---
 
 ```
-
-- MY sister name is Fatima
