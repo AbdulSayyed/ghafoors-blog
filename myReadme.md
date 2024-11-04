@@ -3,7 +3,7 @@
 
 ---
 
-## Suli blog
+## Ghafoors-blog
 
 ### Step 1. Cloning and running
 

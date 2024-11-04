@@ -35,12 +35,12 @@ hb:
       profile:
         # title: Profile title other than site title.
         # description: Profile description other than site description.
-        company: COMPANY
-        location: Earth
+        # company: COMPANY
+        # location: Earth
         socials:
           github: hbstack
-          mastodon: https://techhub.social/@hbstack
-          rss: true
+          # mastodon: https://techhub.social/@hbstack
+          # rss: true
       posts:
         recent_count: 5 # the number of recent posts.
         featured_count: 5 # the number of featured posts.
