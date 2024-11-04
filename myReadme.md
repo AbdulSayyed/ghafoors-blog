@@ -286,3 +286,14 @@ menu:
 ---
 
 ```
+
+---
+
+## Deploying on gh-pages
+
+---
+
+- To deploy on gh-pages, a workflow file is needed. First it was used from hbstack site and then it is taken from jmooring github, it is working.
+  
+> Note : it is possible to have more than one workflow with different names, like `gh-pages.yaml` and `static.yaml`. At the moment my site is runing `staic.yaml` workflow
+
