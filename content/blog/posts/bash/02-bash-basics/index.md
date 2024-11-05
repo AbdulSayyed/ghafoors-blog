@@ -2,7 +2,7 @@
 title: "Basics of Bash"
 date: 2024-11-04T18:48:26Z
 draft: true
-description: Basics of Bash shell
+description: Learn the basics of Bash, the powerful Unix shell, in this comprehensive guide. Perfect for beginners and intermediate users.
 noindex: false
 featured: false
 pinned: false
@@ -14,7 +14,7 @@ categories:
 tags:
   - "bash" 
 images:
-  - "bash.jpg"
+  - "bash-basics.webp"
 ---
 
 ## Bash Overview (1.0)

@@ -8,7 +8,7 @@ nav_icon:
   vendor: bs
   name: book
   color: indigo
-authors:
+author:
   - razonyang
 ---
 

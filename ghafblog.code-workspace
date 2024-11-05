@@ -6,6 +6,6 @@
 	],
 	"settings": {
 		"files.autoSave": "onFocusChange",
-		"workbench.colorTheme": "Monokai"
+		"workbench.colorTheme": "Monokai Classic"
 	}
 }

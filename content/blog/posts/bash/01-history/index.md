@@ -4,15 +4,15 @@ date: 2024-11-04T18:22:26Z
 draft: true
 description: Brief history of Bash shell
 noindex: false
-featured: false
+featured: true
 pinned: false
 # comments: false
 series:
-  - "Bash" 
+  - Bash 
 categories:
-  - "shell"
+  - shell
 tags:
-  - "bash" 
+  - bash 
 images:
   - "bash.jpg"
 # images:

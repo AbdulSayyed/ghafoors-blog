@@ -1,4 +1,4 @@
-description: Ghafoor's blogs
+#description: Ghafoor's blogs
 
 hb:
   # override SASS variables, please replace the dash with underline, e.g. `list-group-color` should be `list_group_color`.
@@ -33,14 +33,16 @@ hb:
   blog:
     sidebar:
       profile:
-        # title: Profile title other than site title.
+        avatar: /images/avatar.png
+        avatar_size: 200
+        title: Personal blogs
         # description: Profile description other than site description.
         # company: COMPANY
         # location: Earth
         socials:
           github: hbstack
           # mastodon: https://techhub.social/@hbstack
-          # rss: true
+          rss: true
       posts:
         recent_count: 5 # the number of recent posts.
         featured_count: 5 # the number of featured posts.

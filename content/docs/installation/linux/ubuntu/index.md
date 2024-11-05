@@ -10,8 +10,8 @@ tags:
   - Linux
   - Ubuntu
 images:
-featured: true
-authors:
+featured: false
+author:
   - razonyang
 ---
 

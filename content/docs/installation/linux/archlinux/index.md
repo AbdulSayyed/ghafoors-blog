@@ -11,7 +11,7 @@ tags:
   - Arch Linux
 images:
   - https://razonyang.com/images/covers/archlinux_hu8e098f7aa7a8aae6dbe5fc105fe89b3c_11178_bad08652ea24e912f5ea3f07ca705c9a.webp?width=1930&height=640
-featured: true
+featured: false
 authors:
   - razonyang
 ---

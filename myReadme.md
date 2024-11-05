@@ -297,3 +297,24 @@ menu:
   
 > Note : it is possible to have more than one workflow with different names, like `gh-pages.yaml` and `static.yaml`. At the moment my site is runing `staic.yaml` workflow
 
+
+---
+
+## Featured Image 
+
+---
+
+### Top level widget
+
+- The site shows a top level widget in which post images are shown.
+- The setting is controlled by a variable `featured:true` from front matter.
+- We can replace this to `false` and add `true` to the post's front matter which we like it to show.
+- For example the following post will be shown in this carousel since it has this flag set in front matter.
+
+```yaml
+
+```
+
+### author
+
+- `hugo.yaml` file under `taxanomies` section has `author` set to `autohers`. Change it to only `author`.
