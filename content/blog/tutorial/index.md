@@ -31,9 +31,6 @@ images:
 #         vendor: bs
 #         name: book
 #         color: '#e24d0e'
-authors:
-  - razonyang
-  - hugomods
 ---
 
 A simple tutorial that offers samples and code snippets show how to create rich content, please refer to the [documentation](https://hbstack.dev/en/) for more usage.

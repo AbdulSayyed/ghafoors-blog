@@ -300,11 +300,7 @@ menu:
 
 ---
 
-## Featured Image 
-
----
-
-### Top level widget
+### Featured Image on Top level widget
 
 - The site shows a top level widget in which post images are shown.
 - The setting is controlled by a variable `featured:true` from front matter.
@@ -315,6 +311,25 @@ menu:
 
 ```
 
-### author
+### Authors folder under content
 
-- `hugo.yaml` file under `taxanomies` section has `author` set to `autohers`. Change it to only `author`.
+- Under content folder `authors` is changed to `author` to represent a single author.
+- The folder it contains is changed from `hugomods` to `ghafoors-blog`. Its original contets are shown below.
+
+```yaml
+---
+title: HugoMods Authors
+description: Code and documentation contributors of HugoMods
+images:
+  - https://avatars.githubusercontent.com/u/128204519?s=200&v=4
+socials:
+  github: hugomods
+  paypal: razonyang
+  kofi: razonyang
+  gmail: mailto:support@hugomods.com
+---
+
+- They are changed to the following
+
+
+- `hugo.yaml` file under `taxonomies` section has `author` set to `authors`. Change it to only `author`.

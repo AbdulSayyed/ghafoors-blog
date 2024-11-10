@@ -11,8 +11,7 @@ tags:
   - Ubuntu
 images:
 featured: false
-author:
-  - razonyang
+
 ---
 
 This guide show you how to install on Ubuntu.
