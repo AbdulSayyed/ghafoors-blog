@@ -8,5 +8,5 @@ menu:
         vendor: bs
         name: pencil
         color: '#0f5e97'
-      description: Author name.
+      description: Authors name.
 ---

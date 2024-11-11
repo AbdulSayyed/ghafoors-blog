@@ -15,6 +15,8 @@ tags:
   - "bash" 
 images:
   - "common-commands.webp"
+authors:
+  - Ghafoor
 ---
 
 ## What is `cd` command ? 

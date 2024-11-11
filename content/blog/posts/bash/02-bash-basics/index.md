@@ -15,6 +15,8 @@ tags:
   - "bash" 
 images:
   - "bash-basics.webp"
+authors:
+  - Ghafoor
 ---
 
 ## Bash Overview (1.0)

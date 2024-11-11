@@ -12,6 +12,8 @@ series:
   - "js"
 images:
   - "path/to/your/image.jpg"
+authors:
+  - Ghafoor
 ---
 
 

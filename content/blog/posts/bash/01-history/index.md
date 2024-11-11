@@ -15,6 +15,8 @@ tags:
   - bash 
 images:
   - "bash.jpg"
+authors:
+  - Ghafoor
 # images:
 #  - 
 # menu:
