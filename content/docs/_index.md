@@ -1,5 +1,5 @@
 ---
-title: Docs
+title: Courses
 menu:
   main:
     weight: 1
