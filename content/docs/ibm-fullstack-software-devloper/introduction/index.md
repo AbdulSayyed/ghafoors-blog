@@ -6,7 +6,7 @@ series:
   - IBM-FSD
 nav_icon:
   vendor: bs
-  name: book
+  name: book-half
   color: indigo
 ---
 
