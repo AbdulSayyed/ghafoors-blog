@@ -65,6 +65,11 @@ hb:
       repo_id: R_kgDOJP3qtA
       category_id: DIC_kwDOJP3qtM4CVavM
   docs:
+    date_format: date_long
+    navs_border: true
+    navs_reduce_font_size: true
+    navs_sticky_scroll: true
+    navs_active_style: bordered
     giscus:
       repo: hbstack/theme
       repo_id: R_kgDOJP3qtA
@@ -72,7 +77,7 @@ hb:
   content_panel:
     repo:
       service: github # github or gitlab.
-      repo: hbstack/theme
+      repo: AbdulSayyed/ghafoors-blog
       branch: main
       # subpath: exampleSite
   # gallery:

@@ -12,6 +12,18 @@ featured: false
 nav_weight: 1
 ---
 
+{{< objectives >}}
+- dfdf
+- dfdfk
+{{< /objectives >}}
+
+{{< accordion >}}
+
+1. This is a line.
+2. This is a second line.
+3. This is a third line.
+{{< /accordion >}}
+
 ### What is Software Engineering?
 
 - **Definition**: Software engineering is the application of scientific principles to software design, development, and maintenance.
@@ -93,5 +105,23 @@ In summary:
 
 ---
 
-Stay tuned for more on the **Software Development Lifecycle** and common roles in software engineering!
-```
+> Stay tuned for more on the **Software Development Lifecycle** and common roles in software engineering!
+
+### FAQ
+
+{{< bs/accordion "accordion.faq" >}}
+
+{{< bs/accordion "accordion.01.faq" >}}
+
+{{< bs/accordion "software-examples.faq" >}}
+<!-- {{< accordion >}}
+
+{{< faq-item id="1" question="What is Kubernetes?" >}}
+Kubernetes is an open-source container orchestration platform for automating deployment, scaling, and management of containerized applications.
+{{< /faq-item >}}
+
+{{< faq-item id="2" question="Why use Hugo for static websites?" >}}
+Hugo is a fast and flexible static site generator with easy theming and a strong template engine, ideal for blogs and documentation sites.
+{{< /faq-item >}}
+
+{{< /accordion >}} -->
