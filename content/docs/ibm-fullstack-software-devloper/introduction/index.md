@@ -1,6 +1,6 @@
 ---
 date: 2024-11-06T22:42:23+08:00
-title: Introduction
+title: Course Introduction
 nav_weight: 1
 series:
   - IBM-FSD

@@ -37,7 +37,7 @@ Each phase follows a clear, sequential order, although some organizations may it
 
 ---
 
-### 1. Planning Phase
+### Planning Phase (1)
 
 #### Purpose
 
@@ -52,7 +52,7 @@ Each phase follows a clear, sequential order, although some organizations may it
 
 ---
 
-### 2. Design Phase
+### Design Phase (2)
 
 ---
 
@@ -68,7 +68,7 @@ Each phase follows a clear, sequential order, although some organizations may it
 
 ---
 
-## 3. Development Phase
+## Development Phase (3)
 
 ### Purpose
 - Transform the design document into a functional software product through coding.
@@ -80,7 +80,7 @@ Each phase follows a clear, sequential order, although some organizations may it
 
 ---
 
-## 4. Testing Phase
+## Testing Phase (4)
 
 ### Purpose
 
@@ -98,7 +98,7 @@ Each phase follows a clear, sequential order, although some organizations may it
 
 ---
 
-## 5. Deployment Phase
+## Deployment Phase (5)
 
 ### Purpose
 
@@ -111,7 +111,7 @@ Each phase follows a clear, sequential order, although some organizations may it
 
 ---
 
-## 6. Maintenance Phase
+## Maintenance Phase (6)
 
 ### Purpose
 

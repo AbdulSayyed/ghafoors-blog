@@ -1,12 +1,12 @@
-# HB Theme Template
+# HB Theme Template 1
 
 The starter theme template of [HB Framework](https://hbstack.dev/), live demo: https://theme.hbstack.dev/.
 
-## News
+## News 1.1
 
 Our [cards style theme](https://github.com/hbstack/theme-cards) is available now.
 
-## Documentation
+## Documentation 1.2
 
 | English | 简体中文 |
 | ------- | -------- |
@@ -17,7 +17,7 @@ Our [cards style theme](https://github.com/hbstack/theme-cards) is available now
 | [Deployment](https://hbstack.dev/en/docs/deployment/) | [部署](https://hbstack.dev/zh-hans/docs/deployment/) |
 | [Modules](https://hbstack.dev/en/docs/modules/) | [模块](https://hbstack.dev/zh-hans/docs/modules/) |
 
-## Features
+## Features 1.3
 
 - **Fast** and **SEO** friendly: [PageSpeed Insight](https://pagespeed.web.dev/analysis?url=https://theme.hbstack.dev/en/) scored perfect :100: in all four metrics on mobile and desktop.
 - **Multi-purpose**: blog, project documentation, digital garden, gallery, landing pages and so on.
@@ -51,6 +51,6 @@ Our [cards style theme](https://github.com/hbstack/theme-cards) is available now
 - Content: supports KaTex (math), Mermaid (diagrams) and Bootstrap shortcodes.
 - ...
 
-## Screenshot
+## Screenshot 1.4
 
 ![Screenshot](https://raw.githubusercontent.com/hbstack/theme/main/images/screenshot.png)

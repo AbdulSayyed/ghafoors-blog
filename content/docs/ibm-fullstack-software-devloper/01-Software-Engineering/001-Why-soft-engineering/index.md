@@ -1,7 +1,7 @@
 ---
 date: 2024-11-04T22:42:23+08:00
 title: What is Software Engineering
-# linkTitle: Why 
+linkTitle: Introduction
 series:
   - IBM-FD
 categories:
@@ -12,19 +12,7 @@ featured: false
 nav_weight: 1
 ---
 
-{{< objectives >}}
-- dfdf
-- dfdfk
-{{< /objectives >}}
-
-{{< accordion >}}
-
-1. This is a line.
-2. This is a second line.
-3. This is a third line.
-{{< /accordion >}}
-
-### What is Software Engineering?
+### What is Software engineering?
 
 - **Definition**: Software engineering is the application of scientific principles to software design, development, and maintenance.
 - **Approach**: It is a systematic process aimed at creating reliable, efficient software that meets specific business requirements.
@@ -82,6 +70,7 @@ To improve efficiency and structure, **Computer-Aided Software Engineering (CASE
 ## Responsibilities of a Software Engineer
 
 A software engineer’s tasks often involve:
+
 - **Designing** comprehensive software solutions
 - **Building** and **maintaining** complex systems
 - **Coding** and **testing** software
@@ -99,6 +88,7 @@ A software engineer’s tasks often involve:
 ## Conclusion
 
 In summary:
+
 - Software engineering is a structured, scientific field focused on creating scalable, reliable software systems.
 - Software engineers handle broad, systematic roles, while software developers concentrate on specific, functional coding tasks.
 - Adopting engineering principles and tools like CASE and SDLC has improved the quality and scalability of modern software solutions.
