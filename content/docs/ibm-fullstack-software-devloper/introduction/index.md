@@ -5,9 +5,9 @@ nav_weight: 1
 series:
   - IBM-FSD
 nav_icon:
-  vendor: bs
-  name: book-half
-  color: indigo
+  # vendor: bs
+  # name: book-half
+  # color: indigo
 ---
 
 

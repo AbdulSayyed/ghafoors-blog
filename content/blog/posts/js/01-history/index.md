@@ -82,7 +82,7 @@ One of JavaScript’s most significant updates came with **ECMAScript 3** in 199
 
 Notably, **ECMAScript 4** was never officially released due to conflicting opinions among developers. ECMAScript 5 later introduced **strict mode**, which made JavaScript safer and more predictable.
 
-### Key Features in ES6
+#### Key Features in ES6
 
 ECMAScript 6 (2015) introduced several awaited features, including:
 

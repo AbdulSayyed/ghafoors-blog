@@ -97,7 +97,7 @@ In summary:
 
 > Stay tuned for more on the **Software Development Lifecycle** and common roles in software engineering!
 
-### FAQ
+## FAQ
 
 {{< bs/accordion "accordion.faq" >}}
 

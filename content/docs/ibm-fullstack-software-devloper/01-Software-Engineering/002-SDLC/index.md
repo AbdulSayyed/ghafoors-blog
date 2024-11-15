@@ -16,11 +16,9 @@ nav_weight: 2
 
 
 
-## Phases of the Software Development Life Cycle (SDLC)
+## Phases of the Software Development Life Cycle [SDLC]
 
 The **Software Development Life Cycle (SDLC)** is a structured approach that divides the software creation process into several distinct phases, each with specific tasks and deliverables. This framework helps to ensure efficient project management and high-quality software output. Below is an overview of each phase and the key activities involved.
-
----
 
 ### Overview of SDLC Phases
 
@@ -37,56 +35,52 @@ Each phase follows a clear, sequential order, although some organizations may it
 
 ---
 
-### Planning Phase (1)
+### Planning Phase
 
-#### Purpose
+---
 
-- This phase focuses on gathering, analyzing, and documenting the requirements for the software.
+#### Planning Phase Purpose
 
-#### Key Activities
+- This phase focuses on gathering, analysing, and documenting the requirements for the software.
+
+#### Planning Phase Key Activities
 
 - **Requirements Gathering**: Identifying the needs and constraints of users and stakeholders.
 - **Project Documentation**: Creating a Software Requirements Specification (SRS) document that outlines all software requirements.
 - **Prototyping**: If requirements are unclear, a prototype may be developed to clarify expectations.
-- **Resource Allocation**: Estimating labor, material costs, and time constraints; defining project roles and responsibilities.
+- **Resource Allocation**: Estimating labour, material costs, and time constraints; defining project roles and responsibilities.
 
 ---
 
-### Design Phase (2)
+### Design Phase
 
 ---
 
-#### Purpose
+#### Design Phase Purpose
 
 - Convert requirements into a blueprint for the software’s structure and functionality.
 
-#### Key Activities
+#### Design Phase Key Activities
 
 - **Architectural Design**: Developing the software’s structure, based on the SRS.
 - **Prototype Development**: Creating mock-ups of the system to validate design decisions with stakeholders.
 - **Design Document Creation**: Generating a design document that will guide the development team in the next phase.
 
----
+### Development Phase Purpose
 
-## Development Phase (3)
-
-### Purpose
 - Transform the design document into a functional software product through coding.
 
-### Key Activities
+### Development Phase Key Activities
+
 - **Coding**: Using programming languages, tools, and frameworks to build the software according to the design document.
 - **Task Assignment**: Allocating specific coding tasks based on project roles.
 - **Standards Compliance**: Following organizational coding standards or guidelines to ensure consistency.
 
----
-
-## Testing Phase (4)
-
-### Purpose
+### Testing Phase Purpose
 
 - Identify and fix defects to ensure the software meets requirements and functions as intended.
 
-### Key Activities
+### Testing Phase Key Activities
 
 - **Manual and Automated Testing**: Utilizing both methods to find bugs and confirm that each component works.
 - **Bug Tracking and Fixing**: Reporting issues and iteratively improving code until it meets stability and security requirements.
@@ -96,36 +90,26 @@ Each phase follows a clear, sequential order, although some organizations may it
   - **System Testing**: Validating the complete system functionality.
   - **Acceptance Testing**: Ensuring the software meets all requirements before deployment.
 
----
-
-## Deployment Phase (5)
-
-### Purpose
+### Deployment Phase Purpose
 
 - Release the software to its production environment, making it available to end-users.
 
-### Key Activities
+### Deployment Phase Key Activities
 
 - **User Acceptance Testing (UAT)**: Deploying on a UAT platform for stakeholder approval.
 - **Production Release**: Making the software available through web servers, app stores, or internal networks.
 
----
-
-## Maintenance Phase (6)
-
-### Purpose
+### Maintenance Phase Purpose
 
 - Address post-release issues and update the software based on user feedback and changing requirements.
 
-### Key Activities
+### Maintenance Phase Key Activities
 
 - **Bug Fixing**: Identifying and fixing any defects not caught during testing.
 - **User Feedback Collection**: Gathering feedback to identify additional improvements or UI issues.
 - **Enhancement Identification**: Planning code improvements for future updates, restarting the SDLC cycle as needed.
 
----
-
-## Iteration and Adaptation in SDLC
+### Iteration and Adaptation in SDLC
 
 While the SDLC was traditionally linear (waterfall approach), modern methodologies often incorporate **iteration** to adapt to evolving requirements. This flexibility allows for feedback loops, ensuring the software meets changing user needs effectively.
 
