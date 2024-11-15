@@ -90,7 +90,7 @@
 ```
 
 - Modify the above file to suit your needs. First change the name of the project from `hb-theme` to your project name.
-- Also change the description and the address of the repository and other detials like author and homepage details, remove what is not needed for example delete bugs section. The follwing is the modified contents.
+- Also change the description and the address of the repository and other details like author and homepage details, remove what is not needed for example delete bugs section. The following is the modified contents.
 
 ```json
 {
@@ -299,7 +299,7 @@ menu:
 
 - To deploy on gh-pages, a workflow file is needed. First it was used from hbstack site and then it is taken from jmooring github, it is working.
   
-> Note : it is possible to have more than one workflow with different names, like `gh-pages.yaml` and `static.yaml`. At the moment my site is runing `staic.yaml` workflow
+> Note : it is possible to have more than one workflow with different names, like `gh-pages.yaml` and `static.yaml`. At the moment my site is running `static.yaml` workflow
 
 ---
 
@@ -317,9 +317,9 @@ menu:
 ### Authors folder under content
 
 - Under content folder `authors` is changed to `author` to represent a single author.
-- The folder it contains is changed from `hugomods` to `ghafoors-blog`. Its original contets are shown below.
+- The folder it contains is changed from `hugomods` to `ghafoors-blog`. Its original contents are shown below.
 
-3. ```yaml
+```yaml
 ---
 title: HugoMods Authors
 description: Code and documentation contributors of HugoMods
@@ -331,8 +331,8 @@ socials:
   kofi: razonyang
   4. gmail: mailto:support@hugomods.com
 ---
+```
 
 - They are changed to the following
-
 
 - `hugo.yaml` file under `taxonomies` section has `author` set to `authors`. Change it to only `author`.

@@ -72,9 +72,9 @@ npm run check-space
 
 These two `.js` files are run with `markdownlint` this is a Separate package installed using `npm -i -g markdown-cli` which work with  vscode extension.
 
-### Use Custom Script to Replace Section Numbering 
+### Use Custom Script to Replace Section Numbering
 
-1. Markdown All in One Vscode extension is used to add section numbers. They are added in the beginning. To move them at the end follwoing script is used.
+1. Markdown All in One Vscode extension is used to add section numbers. They are added in the beginning. To move them at the end following script is used.
 
 ```bash
 # ./site_rules.md is correct but not site_rule.md
@@ -109,4 +109,3 @@ node update-heading.js <filename>
     "MD029": false # for ordered list continuity if a code block is present
 }
 ```
-
