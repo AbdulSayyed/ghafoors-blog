@@ -7,3 +7,4 @@ gh-pages-old.workingyaml
 public/
 node_modules/
 resources/_gen
+pdf-output/

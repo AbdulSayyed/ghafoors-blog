@@ -1,7 +1,7 @@
 
-## Ghafoors-blog 0.1
+## Ghafoors-blog
 
-### Step 1. Cloning and running (1.0) 0.1.1
+### Step 1. Cloning and running
 
 - Cloned in `suliblog` under `~/Documents/projects/hbstack/`.
 - Changed `go.mod` top entry to point to `module github.com/AbdulSayyed/suliblog`.
@@ -9,7 +9,7 @@
 - Running with `npm run dev`. First time errors, second time started. Most errors are dart sass related, they are warning not errors.
 - Also added this file and named `myReadme.md`.
 
-### Step 2. Cleaning and uploading on Github 0.1.2
+### Step 2. Cleaning and uploading on Github
 
 - `.gitignore` file so  is already there so using the same file.
 - Cleaning all chinese files with are not required.
@@ -20,11 +20,11 @@
 - Since we do not need hbstack `.git`, delete this folder. Run `git init .`, add all files `git aa` and finally make first commit `git cm "Initial commit`.
 - Make a new repo on github and push the repo.
 
-### Step 3. Configure vscode to use the project 0.1.3
+### Step 3. Configure vscode to use the project
 
 - Create `.vscode` folder in project root directory and create a file named `extensions.json` this file will maintain the extensions needed for this project. Create another file called `.settings.json` where some sittings for this projects will be saved.
   
-#### Install markdownlint extension 0.1.3.1
+#### Install markdownlint extension
 
 - First install `markdownlint` extension from the market place and use it globally. Create `.markdownlint.json` file in your home folder `~/.markdownlint.json`. Add these contents in this file.
 
@@ -47,7 +47,6 @@
 - This project intends to convert some of the markdown files into pdf. For this purpose markdown heading are followed by numbering in this format `(1.0)`. While writing to avoid extra spaces linting measures are needed.
 - For this purpose a new file named `heading-space-check.js` is created in the same folder. Then using markdownlint-cli this rule is applied to check on the targeted file. Here is an example `markdownlint --rules ./heading-space-check.js site_rules.md`. When it is run it tells the error.
 
-
 1. [Go](https://marketplace.visualstudio.com/items?itemName=golang.go) is used locally.
 2. [Hugo language support for syntax](https://marketplace.visualstudio.com/items?itemName=budparr.language-hugo-vscode)
 
@@ -56,7 +55,7 @@
 1. [Code for spell checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 2. [Markdown linting](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 
-#### Amend project.json file 0.1.3.2
+#### Amend project.json file
 
 - Following is the state of the project.json file.
   
@@ -120,11 +119,11 @@
 }
 ```
 
-### Step 3. Changing configuration 0.1.4
+### Step 3. Changing configuration
 
 - All configuration are kept under `config/default/` folder. There is one `zh` chinese menu file is present. Delete this file using `rm ./config/_default/menus.zh-hans.yaml`.
 
-#### Hugo.yaml 0.1.4.1
+#### Hugo.yaml
 
 - First two lines are changed as shown below.
 
@@ -133,7 +132,7 @@ baseURL: https://github.com/AbdulSayyed/ghafoors-blog.git
 title: Suli blogs
 ```
 
-#### Languages.yaml 0.1.4.2
+#### Languages.yaml
 
 - Following chinese section is removed
 
@@ -141,10 +140,10 @@ title: Suli blogs
 zh-hans:
   languageName: 简体中文
   title: HB 博客主题模板
-  weight: 2
+  weight:
 ```
 
-#### Menus.yaml Or menus.en.yaml 0.1.4.3
+#### Menus.yaml Or menus.en.yaml
 
 - Before we look at this file we need to understand where are the main menus coming from.
 - They are generated directly by hugo as being part of section.
@@ -152,7 +151,7 @@ zh-hans:
 - The `nav` bar contains `Docs, Gallery, Examples, Blog and support` menus.
 - They come because in above folders we have a file name `_index.md` where menus entries are explicitly defined. When you do it there is no need to use url property. They are rendered automatically. The only exception is `support` menu, it is defined in `menus.yaml` file. As we do not need this menu, delete its contents.
 
-#### Params.yaml 0.1.4.4
+#### Params.yaml
 
 - This is the place where followings sections variables can be changed. They are given below
   1. Header
@@ -174,7 +173,7 @@ zh-hans:
 
 > Note: This is the file where most variables value is set.
 
-### Step 4. Content folder 0.1.5
+### Step 4. Content folder
 
 - It contains following folders.
 
@@ -191,14 +190,14 @@ zh-hans:
 └── tags
 ```
 
-#### What is _index.md 0.1.5.1
+#### What is _index.md
 
 - In Hugo files which starts from `_` are necessary to maintain folder structure. The `_index.md` file is a special file in Hugo, used to define content for a list page (such as a section, taxonomy, or homepage) rather than a single content page. In Hugo a section denotes the directory under `content` folder.
 - Section Index Pages: When placed in a directory, `_index.md` defines the content and metadata for that section's index page. For example, placing `_index.md` in the content/ folder would define the content section, similarly an `_index.md` under content/blog/ directory would define what is present under `blog` folder and how it is to organised.
 - Home Page: An _index.md file in the root of the content/ directory will define the content for the homepage.
 - Taxonomy Pages: When used in taxonomy directories (like tags or categories), _index.md defines the layout and content for the list page of that taxonomy.
 
-#### Creating posts directory structure 0.1.5.2
+#### Creating posts directory structure
 
 - The structure for post would ideally look like the following:
 
@@ -256,7 +255,7 @@ content/
 
 ```
 
-#### Benefits of Using Directories with index.md Files 0.1.5.3
+#### Benefits of Using Directories with index.md Files
 
 Resource Management:
 
@@ -271,7 +270,7 @@ Hugo Page Bundles:
 Leaf Bundles: These are used for single pages that are self-contained with their resources. The directory is treated as a single page.
 Branch Bundles: These are used for sections that contain multiple pages. A _index.md file in a directory signifies a branch bundle.
 
-#### Adding posts submenu into blog main menu 0.1.5.4
+#### Adding posts submenu into blog main menu
 
 - To do so, `posts/_index.md` is changed as follows:
 
@@ -282,7 +281,7 @@ menu:
   main:
     identifier: posts
     parent: blog
-    weight: 2
+    weight:
     params:
       icon:
         vendor: fas
@@ -294,7 +293,7 @@ menu:
 
 ---
 
-## Deploying on gh-pages 0.2
+## Deploying on gh-pages
 
 ---
 
@@ -304,7 +303,7 @@ menu:
 
 ---
 
-### Featured Image on Top level widget 0.2.1
+### Featured Image on Top level widget
 
 - The site shows a top level widget in which post images are shown.
 - The setting is controlled by a variable `featured:true` from front matter.
@@ -315,12 +314,12 @@ menu:
 
 ```
 
-### Authors folder under content 0.2.2
+### Authors folder under content
 
 - Under content folder `authors` is changed to `author` to represent a single author.
 - The folder it contains is changed from `hugomods` to `ghafoors-blog`. Its original contets are shown below.
 
-```yaml
+3. ```yaml
 ---
 title: HugoMods Authors
 description: Code and documentation contributors of HugoMods
@@ -330,7 +329,7 @@ socials:
   github: hugomods
   paypal: razonyang
   kofi: razonyang
-  gmail: mailto:support@hugomods.com
+  4. gmail: mailto:support@hugomods.com
 ---
 
 - They are changed to the following

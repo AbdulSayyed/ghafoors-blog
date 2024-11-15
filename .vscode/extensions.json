@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "yzhang.markdown-all-in-one",
+        "davidanson.vscode-markdownlint",
+        "bierner.markdown-preview-github-styles",
+        "yzane.markdown-pdf",
+        "tomoki1207.pdf",
+        "shd101wyy.markdown-preview-enhanced",
+        "streetsidesoftware.code-spell-checker"
+    ]
+}
