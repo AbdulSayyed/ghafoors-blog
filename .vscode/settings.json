@@ -9,6 +9,7 @@
         "fullhuman",
         "giscus",
         "gohugoio",
+        "goldmark",
         "hbstack",
         "hugomods",
         "Hugopress",
@@ -29,23 +30,5 @@
         "Suliblogs",
         "tabler",
         "twbs"
-    ],
-    "markdown-pdf.convertOnSave": true,
-    "markdown-pdf.outputDirectory": "pdf-output",
-    "markdown-pdf.outputDirectoryRelativePathFile": true,
-    "markdown-pdf.margin.left": "20mm",
-    "markdown-pdf.margin.bottom": "15mm",
-    "markdown-pdf.margin.right": "10mm",
-    "markdown-pdf.margin.top": "15mm",
-   // "markdown-pdf.executablePath": "/usr/bin/microsoft-edge",
-    "markdown-pdf.executablePath": "/usr/bin/google-chrome",
-    "markdown-pdf.headerTemplate": "<div style=\"font-size: 9px; margin-left: 25.4mm;text-align:center;color:lightgrey\"> <span>Candidate Name: Sulaiman Ahmed Sayyed</span></div> <div style=\"font-size: 9px; margin-left: auto; margin-right: 50mm;color:lightgrey\">Candidate Number:</div>",
-    "markdown-pdf.footerTemplate": "<div style=\"font-size: 9px; margin: 0 auto;\">Page <span class='pageNumber'></span> of <span class='totalPages'></span></div>",
-    "markdown-pdf.mermaidServer": "https://unpkg.com/mermaid@9.4.3/dist/mermaid.min.js",
-    "[markdown]": {
-        // "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-    },
-    "markdown-pdf.styles": [
-        "markdown-pdf.css",
     ],
 }

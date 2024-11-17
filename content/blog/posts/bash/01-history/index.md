@@ -40,3 +40,5 @@ The **Bash Shell**—short for **Bourne Again Shell**—was created in 1989 by *
 Before Bash, Unix users commonly relied on the **Thompson Shell**—the original Unix shell by **Ken Thompson** in 1971—which offered basic functionality for command processing. By the late 1970s, **Bill Joy** introduced the **C Shell**, which gained popularity due to its C-like syntax, command history, and aliasing capabilities, making it easier for developers to use. However, Bash eventually became the preferred choice due to its compatibility, enhanced control structures, and job control features that allowed processes to be paused or run in the background.
 
 Bash includes features like **command history**, **job control**, **aliases**, **filename expansion**, and improved scripting with logical control structures (if-then-else, loops), making it versatile for automation and complex scripting tasks. Today, Bash remains the default shell on most Linux distributions and macOS, reflecting its vital role in Unix-like systems. For more, visit the [GNU Bash documentation](https://www.gnu.org/software/bash/manual/).
+
+## Some more information

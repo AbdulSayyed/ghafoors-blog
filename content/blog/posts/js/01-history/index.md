@@ -11,9 +11,9 @@ tags:
 series:
   - "js"
 images:
-  - "path/to/your/image.jpg"
+  - "/images/js/js-feature-image.webp"
 authors:
-  - Ghafoor
+  - Ghafoor Sayyed
 ---
 
 

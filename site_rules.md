@@ -20,7 +20,7 @@
 4. Stick to `letter, number and hyphen (-). Separate files names with hyphen.
 5. Some files names comes with underscore (_) such as `node_modules`, keep them as it is.
 
-#### Markdown File Names
+#### Markdown File Names 
 
 1. Starts with short date `2024-11-10` followed by the file name separated by hyphen.
 2. Keep the extension as `.md` not an `.Md` or `.mkd` etc. Keep them short, longer files names creates search problems.
