@@ -1,15 +1,33 @@
 ---
-date: 2024-11-04T22:42:23+08:00
 title: What is Software Engineering
-linkTitle: Introduction
+linkTitle: introduction
+date: 2024-11-04T22:42:23+08:00
+draft: true
+description:
+noindex: false
+# comments: false
+nav_weight: 1
+# nav_icon:
+#   vendor: bootstrap
+#   name: toggles
+#   color: '#e24d0e'
 series:
+  - Docs
   - IBM-FD
 categories:
+#  -
 tags:
+#  -
 images:
-  - https://razonyang.com/images/covers/archlinux_hu8e098f7aa7a8aae6dbe5fc105fe89b3c_11178_bad08652ea24e912f5ea3f07ca705c9a.webp?width=1930&height=640
-featured: false
-nav_weight: 1
+#  -
+# menu:
+#   main:
+#     weight: 100
+#     params:
+#       icon:
+#         vendor: bs
+#         name: book
+#         color: '#e24d0e'
 ---
 
 ### What is Software engineering?
@@ -51,6 +69,7 @@ To improve efficiency and structure, **Computer-Aided Software Engineering (CASE
 ### Key Differences
 
 - **Scope of Knowledge**:
+
   - Software Engineers: Take a broader, systematic approach, designing entire systems. They are also developers.
   - Software Developers: Focus more on implementing specific functionalities within a system.
 

@@ -2,6 +2,7 @@
     "cSpell.words": [
         "adsense",
         "apstyle",
+        "bierner",
         "color",
         "Coursera",
         "disqus",
@@ -33,6 +34,18 @@
         "suliblog",
         "Suliblogs",
         "tabler",
-        "twbs"
+        "twbs",
+        "vscod",
+        "yzhang"
     ],
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.printWidth": 80,
+    "prettier.tabWidth": 2,
+    "prettier.useTabs": false,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "es5",
+    "editor.formatOnSave": true
 }

@@ -6,7 +6,9 @@ module.exports = {
   description: "Headings should follow AP-style capitalization",
   tags: ["headings", "capitalization"],
   function: function(params, onError) {
-    const lowercaseWords = ["a", "an", "and", "the", "but", "or", "nor", "for", "on", "at", "to", "from", "by", "of", "in","is", "are"];
+    const lowercaseWords = ["a",
+       "an", "and", "the", "but", "or", "nor",
+       "for", "on", "at", "to", "from", "by", "of", "in","is", "are","index.md"];
     
     params.tokens
       .filter(token => token.type === "heading_open")
