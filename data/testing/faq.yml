@@ -1,0 +1,57 @@
+- title: What is the role of software testing in the Agile software development process?
+  content: |
+    In the Agile software development process, software testing plays a critical and continuous role throughout the lifecycle of a project. Testing is integrated into every phase and iteration of development, ensuring continuous feedback and improvement.
+
+- title: What is Test-Driven Development (TDD) in Agile?
+  content: |
+    Test-Driven Development (TDD) is a practice in Agile where developers write tests for a feature before writing the actual code. The cycle follows this sequence:
+    - Write a test
+    - Run the test (it will fail)
+    - Write code to make the test pass
+    - Refactor the code while ensuring tests still pass
+
+- title: What are Continuous Integration (CI) and Continuous Testing in Agile?
+  content: |
+    Continuous Integration (CI) and Continuous Testing are practices in Agile where new code is frequently merged into the main codebase, and automated tests are run on every integration to catch issues early. This reduces bugs and helps maintain software quality.
+
+- title: What types of testing are involved in Agile?
+  content: |
+    Agile involves different levels and types of testing including:
+    - **Unit Testing**: Verifies individual functions or components.
+    - **Integration Testing**: Verifies that different modules work together.
+    - **System Testing**: Validates the entire application’s functionality.
+    - **User Acceptance Testing (UAT)**: Ensures the software meets user needs.
+    - **Regression Testing**: Ensures new changes do not break existing functionality.
+    - **Exploratory Testing**: Finds defects through informal testing.
+    - **Performance Testing**: Checks the system's performance under load.
+
+- title: What is the role of the QA Engineer in Agile?
+  content: |
+    QA Engineers in Agile are integrated into the development team and are responsible for:
+    - Creating and maintaining test cases
+    - Automating regression, integration, and unit tests
+    - Collaborating with developers
+    - Providing quick feedback through automated tests or direct interaction
+
+- title: What are the Agile Testing Quadrants?
+  content: |
+    The Agile Testing Quadrants categorize tests based on their purpose and scope:
+    - **Quadrant 1**: Technology-facing, Supportive - Unit tests, component tests, and API tests.
+    - **Quadrant 2**: Business-facing, Supportive - Functional testing, acceptance tests.
+    - **Quadrant 3**: Business-facing, Critically validating - Exploratory testing, UAT.
+    - **Quadrant 4**: Technology-facing, Critically validating - Performance testing, security testing.
+
+- title: Why is test automation crucial in Agile testing?
+  content: |
+    Test automation is crucial in Agile because it allows teams to:
+    - Quickly verify new features after every sprint
+    - Run regression tests to ensure existing functionality is not broken by new changes
+    - Test across multiple devices and environments for consistency
+
+- title: What is the purpose of the Sprint Demo in Agile?
+  content: |
+    The Sprint Demo in Agile occurs at the end of every sprint, where the product owner, stakeholders, and team members review the completed functionality. It ensures that the developed functionality matches the user stories and requirements, and stakeholders provide feedback for the next sprint.
+
+- title: How does feedback and iteration work in Agile testing?
+  content: |
+    Testing and feedback go hand-in-hand in Agile. After each sprint, the development team gets feedback on the working product, which helps shape the direction for the next sprint. This feedback loop ensures the product meets user expectations and business goals, and helps identify and fix bugs early.

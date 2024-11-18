@@ -1,0 +1,146 @@
+- title: What is the purpose of the Planning phase in SDLC?
+  content: The Planning phase focuses on gathering, analysing, and documenting the requirements for the software.
+
+- title: What are the key activities in the Planning phase?
+  content: Key activities in the Planning phase include Requirements Gathering, Project Documentation, Prototyping, and Resource Allocation.
+
+- title: What are six steps in requirements gathering?
+  content: |
+    1. Identify Stakeholders
+    2. Establishing Goals and Objectives
+    3. Eliciting Requirements from Stakeholder ( Conduct Interviews and Workshops )
+    4. Documenting the Requirements (Define Scope and Objectives)
+    6. Analysing and confirming Document Requirements
+    5. Prioritize Requirements
+- title: Who are stakeholders in Software Development Projects?
+  content: |
+    Stakeholders are individuals or groups with a vested interest in the software being developed. They typically work for the organization requesting the software product, ensuring the solution aligns with the organization's goals and needs.
+
+- title: What are the key types of stakeholders in Software Development Projects?
+  content: |
+    1. **Decision-Makers**:
+       - **Role**: Executives or managers responsible for approving the project, allocating budgets, and defining its objectives.
+       - **Importance**: Their decisions shape the scope, timeline, and resources of the project.
+       - **Example**: A CIO deciding on software features or approving funding.
+    2. **End-Users**:
+       - **Role**: Individuals who will directly use the software in their daily tasks.
+       - **Importance**: Their feedback ensures the software is user-friendly, functional, and solves real-world problems.
+       - **Example**: Customer service representatives using a CRM system.
+
+- title: Who are System Administrators and what is their role in Software Development Projects?
+  content: |
+    - **Role**: Responsible for the installation, configuration, and ongoing maintenance of the software.
+    - **Importance**: They ensure the system operates efficiently and securely within the organization.
+    - **Example**: IT personnel managing a new database application.
+
+- title: What role do Engineering Teams play in Software Development Projects?
+  content: |
+    - **Role**: Professionals who will integrate or support the software within the technical infrastructure.
+    - **Importance**: Their involvement ensures the software is compatible with existing systems and meets technical requirements.
+    - **Example**: DevOps engineers responsible for CI/CD pipelines.
+
+- title: What is the role of Marketing and Sales Teams in Software Development Projects?
+  content: |
+    - **Role**: Use the software for customer outreach, lead generation, or data analytics.
+    - **Importance**: They help define features that improve customer acquisition and retention.
+    - **Example**: A sales team requesting real-time analytics for better client interactions.
+
+- title: Who are Customer Support Personnel and what is their role in Software Development Projects?
+  content: |
+    - **Role**: Use the software to assist customers, handle queries, or manage tickets.
+    - **Importance**: Their feedback is crucial for ensuring the software meets service delivery needs.
+    - **Example**: A help desk team using a ticketing system to resolve customer issues.
+
+- title: What is the significance of stakeholder involvement in Software Development Projects?
+  content: |
+    - **Diverse Perspectives**: Stakeholders bring varied viewpoints that help refine requirements, ensuring the software addresses organizational and user needs.
+    - **Improved Outcomes**: Early and consistent engagement minimizes misunderstandings and reduces the risk of costly rework.
+    - **Alignment with Organizational Goals**: By involving stakeholders, the software is more likely to deliver measurable business value.
+
+
+- title: Explain the purpose of (URS), (SRS), and (SysRs) document?
+  content: |
+    - **User Requirement Specification (URS) Document**: Outlines the high-level needs and expectations of the end-users, stakeholders, and customers.
+    - **Software Requirements Specification (SRS) Document**: Details the functional and non-functional requirements of the software, including use cases and system features.
+    - **System Requirements Specification (SysRS) Document**: Describes the technical requirements and constraints of the system, such as hardware and software configurations.
+
+- title: Describe Requirements Gathering in Planning Phase?
+  content: |
+    - Requirements Gathering is the process of identifying, documenting, and understanding the needs and expectations of stakeholders. It ensures that the project goals are clear and aligned with business objectives.
+    - This involves collecting and documenting the software's necessary requirements, which are detailed in a Software Requirements Specification (SRS). The SRS may include use cases that describe business needs and user workflows. Requirements are classified into four categories:
+      - Functional Requirements: Specify what the software should do.
+      - Non-Functional Requirements: Specify how the software should perform.
+      - Business Requirements: Define the business goals the software should achieve.
+      - Stakeholder Requirements: Represent the needs of different stakeholders involved in the project.
+
+- title: What are Functional Requirements?
+  content: |
+    Functional Requirements focus on the specific features and functionalities the software must provide to meet user needs or business objectives.
+
+- title: What is the purpose of Functional Requirements?
+  content: |
+    The purpose of Functional Requirements is to define what the software should do.
+
+- title: Provide examples of Functional Requirements?
+  content: |
+    - A user should be able to log in using their username and password.
+    - The system must generate a monthly report of sales.
+    - The application should support CRUD (Create, Read, Update, Delete) operations on data.
+
+- title: What is the nature of Functional Requirements?
+  content: |
+    Functional Requirements are descriptive and directly related to the user's tasks or goals.
+
+- title: What are Non-Functional Requirements?
+  content: |
+    Non-Functional Requirements focus on the quality attributes of the system, detailing the operational aspects and constraints under which the functional requirements must operate.
+
+- title: What is the purpose of Non-Functional Requirements?
+  content: |
+    The purpose of Non-Functional Requirements is to define how the software performs its functions.
+
+- title: Provide examples of Non-Functional Requirements?
+  content: |
+    - The system should load the homepage within 2 seconds under normal conditions.
+    - The application must handle up to 10,000 simultaneous users.
+    - Data transmitted between servers must be encrypted using SSL.
+
+- title: What is the nature of Non-Functional Requirements?
+  content: |
+    Non-Functional Requirements are prescriptive and often related to performance, usability, security, scalability, or reliability.
+
+- title: What are the key differences between Functional and Non-Functional Requirements?
+  content: |
+    | Aspect              | Functional Requirements                         | Non-Functional Requirements                   |
+    |---------------------|-------------------------------------------------|------------------------------------------------|
+    | **Focus**           | What the system should do                       | How the system should perform                  |
+    | **Type of Need**    | Business or user-driven                         | Technical or quality-driven                    |
+    | **Scope**           | Specific tasks, features, and actions           | Operational characteristics and constraints    |
+    | **Measurement**     | Validated through feature testing               | Validated through performance or stress testing|
+    | **Impact of Failure**| System may not meet user or business needs     | System may not perform efficiently or reliably |
+
+- title: Provide examples of Requirements Gathering in different fields?
+  content: |
+    - **Software Development**: Conduct interviews with end-users to identify features for a mobile app, such as login functionality, notifications, and payment integration.
+    - **Construction**: Discuss with the client to determine building size, design preferences, and budget constraints.
+    - **Marketing Campaign**: Collect stakeholder input on target audience, campaign message, and desired outcomes.
+
+- title: Describe Project Documentation in Planning Phase?
+  content: Project Documentation involves documenting the **gathered requirements, project scope, timelines, deliverables, and stakeholder expectations** to ensure everyone is on the same page. This documentation serves as a reference throughout the project.
+
+- title: Provide examples of Project Documentation in different fields?
+  content: |
+    - **Software Development**: Create a `Software Requirements Specification (SRS)` document outlining system features, use cases, and non-functional requirements like security and scalability.
+    - **Construction**: Draft a project charter that includes site plans, milestones, and compliance requirements.
+    - **Event Planning**: Prepare a project plan detailing event schedules, venue booking, and logistics.
+
+- title: Describe Prototyping in Planning Phase?
+  content: |
+    Prototyping involves creating a preliminary version of the product to visualize the outcome and gather feedback before full-scale development begins. This helps refine the product and minimize risks.
+
+- title: Provide examples of Prototyping in different fields?
+  content: |
+    - **Software Development**: Develop a clickable wireframe for a website or app to show the navigation flow and user interface.
+    - **Product Design**: Build a 3D-printed model of a consumer gadget to showcase its look and functionality.
+    - **Retail Design**: Create a mockup of a store layout to visualize customer traffic flow.
+

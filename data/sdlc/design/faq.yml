@@ -1,0 +1,54 @@
+- title: What is the purpose of the Design phase in SDLC?
+  content: The purpose of the Design phase is to convert requirements into a blueprint for the software’s structure and functionality.
+
+- title: What activities are involved in the Design phase?
+  content: Activities in the Design phase include Architectural Design, Prototype Development, and Design Document Creation.
+
+- title: What are the primary activities in the Design Phase of Software Development?
+  content: |
+    The primary activities in the Design Phase of Software Development include Architectural Design, Prototype Development, and Design Document Creation.
+
+- title: What is Architectural Design in the Design Phase?
+  content: |
+    Architectural Design focuses on defining the high-level structure and organization of the software system. It acts as a foundation for all subsequent development activities.
+    - **Purpose**: To outline the system's overall framework, ensuring scalability, reliability, and maintainability.
+    - **Key Tasks**:
+      - Defining system components and their relationships.
+      - Establishing data flow and interaction between components.
+      - Selecting the technology stack (e.g., programming languages, frameworks, and tools).
+      - Designing system layers, such as presentation, business logic, and data storage.
+      - Addressing non-functional aspects like performance, security, and fault tolerance.
+    - **Outcome**: A clear system architecture that ensures a solid foundation for development and testing.
+
+- title: What is Prototype Development in the Design Phase?
+  content: |
+    Prototype Development involves creating a working model of the system or its key components to validate ideas and gather feedback early in the design process.
+    - **Purpose**: To visualize and refine system requirements, user interfaces, and interactions before full-scale development.
+    - **Key Tasks**:
+      - Developing low-fidelity prototypes (e.g., sketches or wireframes) for basic structure and navigation.
+      - Building high-fidelity prototypes with functional features to simulate real-world interactions.
+      - Testing prototypes with stakeholders to validate usability, design choices, and requirements.
+    - **Benefits**:
+      - Identifies potential issues early, reducing costly revisions later.
+      - Enhances communication between developers, designers, and stakeholders.
+      - Provides a tangible model for refining user experience (UX).
+
+- title: What is Design Document Creation in the Design Phase?
+  content: |
+    Design Document Creation serves as the detailed blueprint that guides developers and stakeholders throughout the development process.
+    - **Purpose**: To document all design-related decisions, ensuring clarity and consistency.
+    - **Key Components**:
+      - System Architecture Diagrams: Visual representations of components and their interactions.
+      - Module Specifications: Detailed descriptions of each component, its behavior, and interfaces.
+      - Data Models: Entity-relationship diagrams (ERDs) or schemas to define how data will be organized.
+      - UI/UX Design Specifications: Mockups and guidelines for user interfaces.
+      - API Specifications: Descriptions of application programming interfaces (APIs) for system integration.
+    - **Outcome**: A comprehensive document that developers can follow to implement the system as designed.
+
+
+
+- title: What are the phases of software release?
+  content: The phases of software release include Alpha Release, Beta Release, and GA (General Availability) Release.
+
+- title: What is the difference between an Alpha and Beta release?
+  content: The Alpha release is the first functioning version given to a select group of stakeholders, likely containing errors. The Beta release is given to stakeholders outside the developing organization to test functionality and identify bugs, meeting all functional requirements.

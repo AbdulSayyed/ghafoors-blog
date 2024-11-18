@@ -1,0 +1,57 @@
+- title: What are the phases of the Software Development Life Cycle (SDLC)?
+  content: |
+    The SDLC generally consists of six key phases:
+    - Planning
+    - Design
+    - Development
+    - Testing
+    - Deployment
+    - Maintenance
+
+- title: What is the purpose of the Design phase in SDLC?
+  content: The purpose of the Design phase is to convert requirements into a blueprint for the software’s structure and functionality.
+
+- title: What activities are involved in the Design phase?
+  content: Activities in the Design phase include Architectural Design, Prototype Development, and Design Document Creation.
+
+- title: What is the purpose of the Development phase in SDLC?
+  content: The Development phase aims to transform the design document into a functional software product through coding.
+
+- title: What key activities are performed during the Development phase?
+  content: Key activities include Coding, Task Assignment, and Standards Compliance.
+
+- title: What is the purpose of the Testing phase in SDLC?
+  content: The Testing phase aims to identify and fix defects to ensure the software meets requirements and functions as intended.
+
+- title: What are the key testing activities in the Testing phase?
+  content: Key activities include Manual and Automated Testing, Bug Tracking and Fixing, and various levels of testing such as Unit Testing, Integration Testing, System Testing, and Acceptance Testing.
+
+- title: What is the purpose of the Deployment phase in SDLC?
+  content: The Deployment phase is about releasing the software to its production environment, making it available to end-users.
+
+- title: What are the key activities in the Deployment phase?
+  content: Key activities include User Acceptance Testing (UAT) and Production Release.
+
+- title: What is the purpose of the Maintenance phase in SDLC?
+  content: The Maintenance phase addresses post-release issues and updates the software based on user feedback and changing requirements.
+
+- title: What activities are involved in the Maintenance phase?
+  content: Activities include Bug Fixing, User Feedback Collection, and Enhancement Identification.
+
+- title: What is code quality and why is it important?
+  content: Code quality refers to the characteristics of the code, such as maintainability, readability, testability, and security. High-quality code is essential to ensure the software fulfils its intended requirements without defects.
+
+- title: What are the best practices for coding for quality?
+  content: Best practices include following coding standards, using automated tools (linters), and commenting in the code for understandability.
+
+- title: What is the purpose of software documentation?
+  content: Software documentation provides guidance for both non-technical end-users and technical users, explaining how the software operates or how to use it.
+
+- title: What are the types of software documentation?
+  content: Documentation types include System Documentation for technical users and User Documentation for non-technical end-users.
+
+- title: What are the phases of software release?
+  content: The phases of software release include Alpha Release, Beta Release, and GA (General Availability) Release.
+
+- title: What is the difference between an Alpha and Beta release?
+  content: The Alpha release is the first functioning version given to a select group of stakeholders, likely containing errors. The Beta release is given to stakeholders outside the developing organization to test functionality and identify bugs, meeting all functional requirements.

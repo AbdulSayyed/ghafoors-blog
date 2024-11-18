@@ -1,0 +1,54 @@
+- title: What are the three common methodologies used in Software Development?
+  content: |
+    The three common methodologies used in Software Development are Waterfall, V-shape model, and Agile.
+
+- title: What is the Waterfall methodology?
+  content: |
+    Waterfall is a sequential method of software development where the output of one phase is the input for the next phase. Development and work on the next phase start only after the completion of the previous phase. All planning is done upfront, and the customer usually does not see the product until the testing phase.
+
+- title: What are the pros and cons of the Waterfall method?
+  content: |
+    **Pros**:
+    - Easy to understand and follow.
+    - Discrete and well-defined stages.
+    - Easier to estimate budget and allocate resources.
+    **Cons**:
+    - Lacks flexibility.
+    - Hard to incorporate changes if requirements change or are overlooked.
+    - Long intervals between releases.
+
+- title: What is the V-shape model in Software Development?
+  content: |
+    The V-shape model is a sequential development method where phases form the shape of a V. The left side represents the verification phases, and the right side represents the validation phases. Each phase in verification corresponds to a validation phase. The phases include planning, system design, architecture design, and module design, followed by coding, unit testing, integration testing, system testing, and acceptance testing.
+
+- title: What are the pros and cons of the V-shape model?
+  content: |
+    - **Pros**:
+      - Simple and easy to use.
+      - Test plans are designed during the verification phase, saving time during coding and validation.
+    - **Cons**:
+      - Does not accommodate changing requirements well.
+      - Difficult to change functionality once in the testing phase.
+
+- title: What is the Agile methodology?
+  content: |
+    Agile is an iterative and collaborative software development process. It focuses on short cycles, or sprints, typically one to four weeks long. Unit testing happens in each sprint to minimize the risk of failure. At the end of each sprint, working code is released, and stakeholders provide feedback. Agile values individuals and interactions, working software, customer collaboration, and responding to change.
+
+- title: What are the pros and cons of the Agile methodology?
+  content: |
+    **Pros**:
+    - Handles new and changing requirements quickly and easily.
+    - Frequent stakeholder feedback ensures the software meets user needs.
+    - Modular design allows for the development of smaller chunks of code.
+    **Cons**:
+    - Upfront planning, budgeting, and scheduling can be challenging.
+    - The overall scope of the product is not clearly defined.
+
+- title: How do the Waterfall and V-shape models compare to Agile?
+  content: |
+    | Aspect                 | Waterfall and V-shape Models                        | Agile                                  |
+    |------------------------|-----------------------------------------------------|----------------------------------------|
+    | **Process**            | Sequential                                          | Iterative and cyclical                 |
+    | **Customer Feedback**  | Received after the whole product is developed       | Received after each sprint cycle       |
+    | **Flexibility**        | Rigid, hard to incorporate changes                  | Flexible, easily accommodates changes  |
+    | **Resource Allocation**| Easier to estimate budget and resources upfront     | Challenging due to undefined overall scope|

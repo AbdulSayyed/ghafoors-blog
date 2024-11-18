@@ -1,0 +1,42 @@
+- title: What is Software Engineering?
+  content: Software engineering is the application of scientific principles to software design, development, and maintenance. It is a systematic process aimed at creating reliable, efficient software that meets specific business requirements.
+  
+- title: When did Software Engineering emerge as a discipline?
+  content: Software engineering emerged as a discipline in the late 1950s and early 1960s.
+
+- title: What led to the Software Crisis in the 1960s-1980s?
+  content: The rapidly increasing software demands led to issues like budget overruns, missed deadlines, and poor-quality code, highlighting inefficiencies in software development.
+
+- title: How was the Software Crisis addressed?
+  content: The transformation from informal coding to an established engineering discipline helped address the Software Crisis.
+
+- title: What are CASE tools, and why were they introduced?
+  content: |
+    Computer-Aided Software Engineering (CASE) tools were introduced in the 1980s to improve efficiency and structure in software development. They include tools for:
+    - business analysis & modelling
+    - development
+    - verification & validation
+    - configuration management
+    - metrics & measurement
+    - project management
+
+- title: What is the difference between a Software Engineer and a Software Developer?
+  content: Software Engineers take a broader, systematic approach, designing entire systems and handling large-scale projects, while Software Developers focus more on implementing specific functionalities within a system.
+
+- title: What are the key responsibilities of a Software Engineer?
+  content: |
+    The key responsibilities of a Software Engineer include:
+    - designing comprehensive software solutions
+    - building and maintaining complex systems
+    - coding and testing software
+    - and consulting with stakeholders, including clients, third-party vendors, security specialists, and team members.
+
+- title: What is the Software Development Lifecycle (SDLC)?
+  content: The Software Development Lifecycle (SDLC) is a framework that outlines the steps necessary for high-quality software development, including planning, design, development, testing, and maintenance.
+
+- title: Why is a scientific approach important in Software Engineering?
+  content: A scientific approach is important in Software Engineering because it provides a structured methodology that guides software development for consistency and efficiency.
+
+- title: What are the main differences in the approach to development between Software Engineers and Software Developers?
+  content: Software Engineers work on large-scale projects with a big-picture focus, while Software Developers apply creative solutions to solve immediate problems within a project.
+ 

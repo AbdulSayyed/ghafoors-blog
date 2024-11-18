@@ -14,37 +14,36 @@ featured: false
 nav_weight: 2
 ---
 
-## Welcome to this course
+## Exploring Generative AI for software development
 
-Explore the aspects of generative AI for software development. 
 
-If you're a software developer, your work likely involves a lot of coding or coding reviews. You would probably agree that a little help to write or generate codes and detect bugs would make the process easier. This is just the beginning of what generative AI can do for your software development activities. 
 
-Since the release of ChatGPT, AI has been all over the headlines. A recent research conducted by Mackenzie found that generative AI or genAI features tend to add up to $4.4 trillion to the global economy annually. Generative AI impacts almost all areas. From writing resumes to generating and debugging complex code just by using a few prompts. You can save time and effort, thereby increasing software development efficiency. 
+Generative AI is revolutionizing software development by making coding, debugging, and code reviews more efficient. Tools like ChatGPT show how AI can simplify tasks and even generate complex code with just a few prompts. Research highlights its economic impact, with generative AI contributing up to $4.4 trillion annually.
 
-To learn how you can do just that and more, explore this course that walks you through the many capabilities and use cases of generative AI for software development. 
+I'm excited to dive into a course that introduces generative AI for software development! It’s structured into three modules with engaging videos, readings, and practice quizzes. Plus, there are demo videos, labs, and even a cheat sheet for quick reference. The hands-on final project—building a learning platform using AI—sounds particularly exciting! Whether you're an experienced developer or just starting, this course seems perfect for understanding how AI can boost productivity and streamline workflows. I can’t wait to learn and apply these skills in real-world scenarios!
 
-The course is divided into three modules that teach you to leverage generative AI tools for software development. This course is a combination of videos, readings, and practice quizzes. Additionally, you will have plenty of demo videos and labs to help perform these in your daily tasks and a cheat sheet to help you lock in the information when needed. You will also create a learning platform using AI on your own as a hands-on final project. 
 
-So if you're a software developer, web developer, mobile developer, front end developer, back end developer, DevOps professional, or just a software engineer looking to leverage AI to become more efficient and productive, this course is for you. You can also take this course if you're learning to be a software developer.
+### Notes on Key Learnings
 
-## Course Prerequisites
+#### Using Generative AI in the Software Development Life Cycle
 
-To get the most out of this course, you must understand software developer processes and have knowledge of programming languages. Additionally, you will need a running computer with a modern web browser and a reliable Internet connection.
+The course provides insights into AI algorithms such as large language models and natural language processing. It explores how generative AI can assist with coding tasks and includes a project to generate a static website.
 
-### Module 1
+#### Generative AI for CI/CD and DevSecOps
 
-Learn how to use genAI in the software development life cycle. You will get an understanding of AI algorithms such as large language models and natural language processing and explore the use of AI for technical help with coding and use it to generate a static website.
+- This section covers the use of generative AI:
+  + to create architectural diagrams,
+  + to assist with software testing,
+  + and optimize workflows. 
 
-### Module 2
+- Ethical considerations in AI-driven software development are also discussed.
 
-Use generative AI for CI/CD and DevSecOps. You will generate architectural diagrams, leverage AI for software testing and software workflows, and explore the ethical considerations of using AI for software development.
 
-### Module 3
+#### Building a Learning Platform 
 
-Build a complete learning platform, leveraging all AI tools and prompts for the final project. This will enable you to apply the knowledge you acquired throughout this course.
+The final project involves creating a complete learning platform by applying the tools and prompts introduced in the course. This project consolidates all the knowledge acquired during the learning process.
 
-## Course Tips
+#### Course Tips
 
 To get the most out of this course, view each video in its entirety, go through the readings, complete all hands-on activities, and check your learning with each quiz. You can also get help in our discussion forums.
 

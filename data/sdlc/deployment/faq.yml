@@ -1,0 +1,15 @@
+- title: What is the purpose of the Deployment phase in SDLC?
+  content: The Deployment phase is about releasing the software to its production environment, making it available to end-users.
+
+- title: What are the key activities in the Deployment phase?
+  content: Key activities include User Acceptance Testing (UAT) and Production Release.
+
+- title: When does this phase occur in the SDLC?
+  content: The Deployment phase typically occurs after the Testing phase and before the Maintenance phase in the SDLC.
+
+- title: How release phase defines alpha, beta and GA releases?
+  content: |
+    The release phase defines the different stages of software release:
+      - **Alpha Release**: The first version of the software given to a select group of stakeholders for initial testing. It may contain errors and incomplete features.
+      - **Beta Release**: A more refined version of the software distributed to a wider audience for testing. It aims to identify bugs and gather feedback from real users.
+      - **GA (General Availability) Release**: The final version of the software that is ready for public release. It meets all functional requirements and has been thoroughly tested.

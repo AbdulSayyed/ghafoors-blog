@@ -8,7 +8,7 @@ hb:
   # js_bundle_name: main # the JS bundle name.
   # css_bundle_name: main # the CSS bundle name.
   
-  full_width: false # when true, the layout takes full width globally.
+  full_width: true # when true, the layout takes full width globally.
 
   header:
     brand: GB # the brand name, leave it empty to use site's title.
@@ -86,6 +86,7 @@ hb:
 seo:
   favicons: # see https://hugomods.com/en/docs/seo/#favicons-module
     icon: images/logo.png # use logo as favicon.
+    # icon: images/logo.webp # use logo as favicon.
 
 # PWA settings, see https://hugomods.com/en/docs/pwa/#site-parameters.
 pwa:

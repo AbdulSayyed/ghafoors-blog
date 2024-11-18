@@ -1,0 +1,17 @@
+- title: What is the purpose of the Development phase in SDLC?
+  content: The Development phase aims to transform the design document into a functional software product through coding.
+
+- title: What key activities are performed during the Development phase?
+  content: Key activities include Coding, Task Assignment, and Standards Compliance.
+
+- title: What is code quality and why is it important?
+  content: Code quality refers to the characteristics of the code, such as maintainability, readability, testability, and security. High-quality code is essential to ensure the software fulfils its intended requirements without defects.
+
+- title: What are the best practices for coding for quality?
+  content: Best practices include following coding standards, using automated tools (linters), and commenting in the code for understandability.
+
+- title: What is the purpose of software documentation?
+  content: Software documentation provides guidance for both non-technical end-users and technical users, explaining how the software operates or how to use it.
+
+- title: What are the types of software documentation?
+  content: Documentation types include System Documentation for technical users and User Documentation for non-technical end-users.

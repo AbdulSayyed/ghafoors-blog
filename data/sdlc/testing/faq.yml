@@ -1,0 +1,5 @@
+- title: What is the purpose of the Testing phase in SDLC?
+  content: The Testing phase aims to identify and fix defects to ensure the software meets requirements and functions as intended.
+
+- title: What are the key testing activities in the Testing phase?
+  content: Key activities include Manual and Automated Testing, Bug Tracking and Fixing, and various levels of testing such as Unit Testing, Integration Testing, System Testing, and Acceptance Testing.

@@ -27,9 +27,9 @@ nav_weight: 1
 
 ## The Software Crisis (1960s - 1980s)
 
-- **Problem**: Rapidly increasing software demands led to issues like budget overruns, missed deadlines, and poor-quality code.
-- **Impact**: The crisis highlighted inefficiencies in software development, pushing for more structured engineering practices.
-- **Solution**: The transformation from informal coding to an established engineering discipline helped address the crisis.
+- **Problem**: Rapidly increasing software demands led to issues like **budget overruns, missed deadlines, and poor-quality code**.
+- **Impact**: The crisis highlighted inefficiencies in software development, pushing for more **structured engineering practices**.
+- **Solution**: The transformation from **informal coding to an established engineering discipline** helped address the crisis.
 
 ---
 
@@ -37,7 +37,7 @@ nav_weight: 1
 
 To improve efficiency and structure, **Computer-Aided Software Engineering (CASE)** tools were introduced in the 1980s. CASE tools are categorized as follows:
 
-- **Business Analysis & Modeling**
+- **Business Analysis & Modelling**
 - **Development Tools**: E.g., debugging environments
 - **Verification & Validation**: Ensures software correctness
 - **Configuration Management**
@@ -51,7 +51,7 @@ To improve efficiency and structure, **Computer-Aided Software Engineering (CASE
 ### Key Differences
 
 - **Scope of Knowledge**:
-  - Software Engineers: Take a broader, systematic approach, designing entire systems.
+  - Software Engineers: Take a broader, systematic approach, designing entire systems. They are also developers.
   - Software Developers: Focus more on implementing specific functionalities within a system.
 
 - **Approach to Development**:
@@ -60,9 +60,9 @@ To improve efficiency and structure, **Computer-Aided Software Engineering (CASE
 
 ### Responsibilities
 
-| Role                 | Responsibilities                                                                                 |
-|----------------------|--------------------------------------------------------------------------------------------------|
-| **Software Engineer** | Designs, builds, and maintains entire systems; consults with stakeholders; writes and tests code |
+| Role                   | Responsibilities                                                                                 |
+| ---------------------- | ------------------------------------------------------------------------------------------------ |
+| **Software Engineer**  | Designs, builds, and maintains entire systems; consults with stakeholders; writes and tests code |
 | **Software Developer** | Implements specific features or functions within a software system                               |
 
 ---
@@ -99,19 +99,4 @@ In summary:
 
 ## FAQ
 
-{{< bs/accordion "accordion.faq" >}}
-
-{{< bs/accordion "accordion.01.faq" >}}
-
-{{< bs/accordion "software-examples.faq" >}}
-<!-- {{< accordion >}}
-
-{{< faq-item id="1" question="What is Kubernetes?" >}}
-Kubernetes is an open-source container orchestration platform for automating deployment, scaling, and management of containerized applications.
-{{< /faq-item >}}
-
-{{< faq-item id="2" question="Why use Hugo for static websites?" >}}
-Hugo is a fast and flexible static site generator with easy theming and a strong template engine, ideal for blogs and documentation sites.
-{{< /faq-item >}}
-
-{{< /accordion >}} -->
+{{< bs/accordion "software-eng.faq" >}}
