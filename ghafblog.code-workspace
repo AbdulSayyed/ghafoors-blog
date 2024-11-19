@@ -19,6 +19,7 @@
 			"markdown-pdf.footerTemplate": "<div style=\"font-size: 9px; margin: 0 auto;\">Page <span class='pageNumber'></span> of <span class='totalPages'></span></div>",
 			"markdown-pdf.mermaidServer": "https://unpkg.com/mermaid@9.4.3/dist/mermaid.min.js",
 		"workbench.colorTheme": "Dracula Theme",
+		"CodeGPT.apiKey": "CodeGPT Plus Beta",
 	},
 }
 		

@@ -1,0 +1,156 @@
+- title: What are the key tools that support modern application workflows?
+  content: |
+    The key tools that support modern application workflows are version control systems, libraries, frameworks, CI/CD pipelines, build tools, packages, and package managers.
+
+- title: What is the purpose of version control systems in application development?
+  content: |
+    Version control systems are indispensable for managing code changes, especially when multiple developers collaborate on a project. They track who made changes, what was altered, and when, resolving conflicts between contributions as they arise.
+
+- title: Can you provide examples of popular version control tools?
+  content: |
+    - **Git**: A widely-used distributed version control system.
+    - **GitHub**: A platform for hosting and managing Git repositories.
+
+- title: What are libraries and how do they benefit application development?
+  content: |
+    Libraries are pre-written collections of code that provide functionality you can integrate directly into your application. They simplify development by reducing the need to write code from scratch for common tasks, enabling faster and more efficient app creation.
+
+- title: Can you provide examples of popular libraries?
+  content: |
+    - **jQuery**: A JavaScript library that makes DOM manipulation easier.
+    - **Email-validator**: A library for validating email addresses.
+    - **Apache Commons Proper**: A repository of reusable Java components.
+
+- title: What are frameworks and how do they differ from libraries?
+  content: |
+    Frameworks provide a structured foundation for building and deploying applications. Unlike libraries, frameworks dictate how you build your application rather than just offering optional tools. They must be selected early in the development process as they determine your app’s architecture and workflow.
+
+- title: Can you provide examples of popular frameworks?
+  content: |
+    - **AngularJS**: A JavaScript-based framework for dynamic web applications.
+    - **Vue.js**: A JavaScript framework focused on user interface development.
+    - **Django**: A Python-based framework for web development.
+
+- title: What is CI/CD and why is it important in modern DevOps practices?
+  content: |
+    CI/CD (Continuous Integration and Continuous Delivery/Deployment) are foundational practices designed to facilitate the frequent and reliable delivery of software changes. They ensure all code components integrate smoothly, automate builds and tests, and deploy validated builds to a testing or staging environment.
+
+- title: What are build tools and their key benefits?
+  content: |
+    Build tools automate the transformation of source code into executable files. They handle tasks like organizing code, compiling binaries, and managing dependencies. Key benefits include automating tasks, ensuring consistent builds, and being triggered from the command line or integrated into an IDE.
+
+- title: Can you provide examples of popular build tools?
+  content: |
+    - **Webpack**: A module bundler for JavaScript.
+    - **Babel**: A JavaScript compiler.
+    - **WebAssembly**: A binary instruction format that runs in browsers.
+
+- title: What is the purpose of packages and package managers in application development?
+  content: |
+    Packages bundle application files, installation instructions, and metadata to simplify installation and distribution. Package managers handle the distribution and maintenance of packages, automating tasks like locating and downloading software, verifying authenticity and integrity, and managing dependencies.
+
+- title: Can you provide examples of platform-specific and programming language-specific package managers?
+  content: |
+    **Platform-specific package managers**:
+    - **Linux**: DPKG (Debian), RPM (Red Hat).
+    - **Windows**: Chocolatey.
+    - **macOS**: Homebrew, MacPorts.
+    - **Android**: Android Package Manager.
+    
+    **Programming language-specific package managers**:
+    - **Node.js/JavaScript**: npm.
+    - **Java**: Gradle, Maven.
+    - **Ruby**: RubyGems.
+    - **Python**: Pip, Conda.
+- title: What is a software stack?
+  content: |
+    A software stack is a collection of technologies, including software and programming languages, used by developers to create applications such as web and mobile apps. These technologies are organized hierarchically to enable the smooth execution of an application.
+
+- title: What are the components of a software stack?
+  content: |
+    Software stacks typically include:
+    - **Front-end technologies**: Programming languages, frameworks, and UI tools.
+    - **Back-end technologies**: Programming languages, frameworks, web/app servers, operating systems, messaging apps, and databases.
+
+- title: What are the types of software stacks?
+  content: |
+    - **Simple Stacks**: Consist of three layers - Presentation Layer (User interface), Business Logic Layer (Application processing), and Data Layer (Data management).
+    - **Complex Stacks**: Include additional components like virtualization, scheduling and orchestration, runtime environments, database connectivity, networking, and security.
+
+- title: Can you provide examples of software stacks?
+  content: |
+    **Python-Django Stack**: Uses Python with the Django web framework, ideal for large-scale, fast-changing web applications.
+    **Ruby on Rails Stack**: Employs the Ruby programming language with the Rails framework, suitable for front-end and JSON/XML-based back-end operations.
+    **ASP.NET Stack**: Built on Microsoft technologies like the ASP.NET MVC framework, IIS web server, SQL Server, and Azure.
+    **LAMP Stack**: Runs on the Linux operating system, includes Apache web server, MySQL database, and PHP programming language.
+    **MEAN Stack**: Components include MongoDB, Express.js, Angular.js, and Node.js.
+
+- title: What are the advantages and disadvantages of popular software stacks?
+  content: |
+    | **Stack** | **Advantages**                                                 | **Disadvantages**                                                                    |
+    | --------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+    | **MEAN**  | Unified JavaScript stack, fast development, platform agnostic. | Limited for large-scale apps, MongoDB lacks relational database functionality.       |
+    | **MEVN**  | Lighter framework (Vue.js), similar to MEAN.                   | Fewer reusable libraries due to Vue.js being newer.                                  |
+    | **LAMP**  | Open source, mature stack with extensive support.              | Less flexible due to Linux dependency, mixed language usage complicates development. |
+
+- title: What are the key takeaways for choosing a software stack?
+  content: |
+    - Software stacks combine technologies to support application development and deployment.
+    - They range from simple, three-layer stacks to complex, multi-layer architectures.
+    - MEAN stacks are ideal for JavaScript-focused teams, while LAMP stacks excel in environments with relational data requirements.
+
+- title: What are version control systems and their benefits in software engineering projects?
+  content: |
+    Version control systems like Git and GitHub are used daily for all projects to track code changes, facilitate teamwork via feature branches and pull requests, and organize and monitor project workflows. They are essential for team projects and invaluable for solo projects due to community features.
+
+- title: What is the role of Integrated Development Environments (IDEs) in front-end and back-end development?
+  content: |
+    - **Front-end Development**: Specialized IDEs like Brackets for HTML, CSS, and JavaScript; General IDEs like VS Code with extensions for formatting and linting.
+    - **Back-end Development**: Tool selection varies by framework, but IDE extensions and auto-formatters are recommended.
+
+- title: What are some key technologies for front-end development?
+  content: |
+    - **Languages and Tools**: HTML, CSS, JavaScript, React JS, Angular, jQuery, and Backbone.
+    - **React JS**: Preferred for its component-driven design, ease of learning, and ability to handle cross-browser compatibility issues.
+
+- title: What are some key technologies for back-end development?
+  content: |
+    - **Languages and Frameworks**: Node.js, Express.js, Flask, and Spring.
+    - **Express.js**: Supports high performance via the Google V8 engine and facilitates faster web page loading with caching features.
+    - **Recommended Practices with JavaScript**: Properly scope variables and functions, write unit and integration tests, and leverage ES6 features like arrow functions and the spread operator.
+
+- title: What are some favourite Node.js packages and their uses?
+  content: |
+    - **Axios**: Simplifies making requests to web services, supports headers, callback functions, and promises.
+    - **Database-related Packages**: Provides interfaces for relational and NoSQL databases.
+- title: What is pair programming?
+  content: |
+    Pair programming is an Agile development technique where two developers collaborate closely on a single task, working together at one computer. This collaboration can take place either physically or virtually, using video links or shared screens.
+
+- title: What are the styles of pair programming?
+  content: |
+    - **Driver/Navigator Style**: One developer writes the code while the navigator reviews it in real-time, offering guidance and feedback.
+    - **Ping-Pong Style**: Incorporates test-driven development; one developer writes a failing test, and the second writes the code to pass it, alternating roles.
+    - **Strong Style**: The more experienced developer guides implementation while the other learns and observes.
+
+- title: What are the benefits of pair programming?
+  content: |
+    Pair programming offers several advantages:
+    - **Knowledge Sharing**: Developers exchange knowledge, valuable for onboarding new team members.
+    - **Skill Development**: Enhances both technical expertise and communication skills through active collaboration.
+    - **Improved Code Quality**: Results in fewer mistakes thanks to real-time feedback and review.
+    - **Increased Efficiency**: Produces better code upfront, reducing time spent on reviews, testing, and debugging later.
+
+- title: What are the challenges of pair programming?
+  content: |
+    Pair programming presents some challenges:
+    - **Sustained Focus**: Requires intense concentration over extended periods.
+    - **Scheduling Conflicts**: Coordinating schedules can be difficult due to personal or work commitments.
+    - **Imbalance of Control**: One developer may dominate the process, diminishing collaborative benefits.
+    - **Personality Clashes**: Differences in work styles or personalities can hinder collaboration.
+    - **Work Environment**: Discussions might create a noisy atmosphere, disrupting other team members.
+
+- title: How can teams maximize the benefits of pair programming?
+  content: |
+    Teams can maximize the benefits of pair programming by selecting the appropriate style and fostering mutual respect. This strengthens collaboration, boosts skill development, and improves code quality while effectively managing the associated challenges.
+
