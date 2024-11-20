@@ -70,9 +70,25 @@ Sentiment analysis determines the sentiment or emotion expressed in a piece of t
 
 NER identifies and classifies named entities in text into predefined categories, using patterns, rules, or machine learning algorithms.
 
+- Training NER models typically involves supervised learning, where a labelled dataset with annotated entities is used to train the model.
+- The process includes feature extraction, where relevant features such as word embeddings, part-of-speech tags, and syntactic dependencies are identified.
+- Machine learning algorithms like Conditional Random Fields (CRFs) or neural networks such as LSTM (Long Short-Term Memory) and Transformer models are commonly used.
+- Evaluation metrics like precision, recall, and F1-score are used to assess the performance of the NER model.
+- Data augmentation techniques can be applied to increase the diversity and size of the training dataset.
+- Fine-tuning pre-trained language models on domain-specific data can enhance the accuracy of NER systems.
+- Active learning strategies can be employed to iteratively improve the model by selecting the most informative samples for annotation.
+- Unsupervised learning methods, though less common, can be used to identify patterns and clusters in the text that may correspond to named entities.
+
 #### Text Classification
 
 Text classification involves assigning predefined categories or labels to pieces of text using NLP techniques.
+
+- Text classification can be binary (e.g., spam vs. not spam) or multi-class (e.g., categorizing news articles into topics like sports, politics, and technology).
+- Techniques include bag-of-words, TF-IDF (Term Frequency-Inverse Document Frequency), and word embeddings.
+- Machine learning algorithms such as Naive Bayes, Support Vector Machines (SVM), and neural networks are commonly used.
+- Pre-trained models like BERT, RoBERTa, and GPT can be fine-tuned for specific text classification tasks.
+- Evaluation metrics include accuracy, precision, recall, and F1-score.
+- Applications include email filtering, sentiment analysis, topic labeling, and document organization.
 
 #### Machine Translation
 
