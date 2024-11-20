@@ -1,0 +1,89 @@
+- title: What are programming languages?
+  content: |
+    Programming languages help us communicate with computers. Unlike humans, computers understand machine code, which is binary (1s and 0s). To bridge the gap, we use human-readable programming languages, making it easier to write instructions for computers.
+
+- title: What are the two broad categories of programming languages?
+  content: |
+    Programming languages generally fall into two broad categories:
+    - Interpreted languages
+    - Compiled languages
+
+- title: What are interpreted programming languages?
+  content: |
+    Interpreted languages, sometimes called scripted languages, rely on an interpreter to execute code. This interpreter translates human-readable source code into machine code at runtime.
+
+- title: What are the features of interpreted languages?
+  content: |
+    - **Platform Versatility**: Code can run on different platforms with the appropriate interpreter.
+    - **Ease of Use**: Many are beginner-friendly, making them popular for quick development tasks.
+    - **Repetitive Scripts**: Ideal for tasks needing frequent execution, such as automating processes.
+    - **Performance**: Slower than compiled languages as translation happens during execution.
+    - **Flexibility**: Can run on almost any operating system with the appropriate interpreter.
+
+- title: Can you provide examples of interpreted languages?
+  content: |
+    - **JavaScript**: Commonly used in web browsers.
+    - **Python**: Known for its simplicity and wide adoption in web development, data science, and automation.
+    - **Lua**: Often used in game development.
+    - **HTML**: Interpreted by web browsers to structure and display web pages.
+
+- title: What are compiled programming languages?
+  content: |
+    Compiled languages create standalone executable programs. They use a compiler to convert human-readable source code into machine code before execution.
+
+- title: What are the features of compiled languages?
+  content: |
+    - **Performance**: Programs run faster since translation into machine code is done beforehand.
+    - **Complexity**: Best suited for large, complex applications.
+    - **Reusable Executables**: The compiled file can be run repeatedly without recompiling.
+
+- title: Can you provide examples of compiled languages?
+  content: |
+    - **C, C++, and C#**: Used to create operating systems like Linux, Microsoft Windows, and macOS.
+    - **Java**: Popular for cross-platform applications and requires the Java Virtual Machine (JVM) to run.
+    - **Go (Golang)**: Known for its simplicity and performance in building scalable systems.
+    - **Rust**: Focuses on safety and concurrency, often used as an alternative to C++ in performance-critical applications.
+
+- title: What is an example of real-world usage for compiled languages?
+  content: |
+    When you update your operating system (e.g., Microsoft Windows), the process involves downloading an installation program. This program, written in a compiled language, contains machine code instructions that your device can execute directly.
+
+- title: Give two bullet points for both interpreted and compiled languages.
+  content: |
+    - **Interpreted Languages**:
+      - Run scripts dynamically at runtime.
+      - Examples include JavaScript, Python, and HTML.
+    - **Compiled Languages**:
+      - Generate standalone executable files for larger, more complex programs.
+      - Examples include C, C++, and Java.
+
+- title: What are the key differences between interpreted and compiled programming languages?
+  content: |
+    | Feature              | Interpreted Languages                                    | Compiled Languages                                   |
+    | -------------------- | -------------------------------------------------------- | ---------------------------------------------------- |
+    | **Availability**     | Runs across multiple platforms or in the cloud           | Available to users with the same operating system    |
+    | **Ease of Learning** | Easier to learn and use                                  | More difficult due to larger program complexity      |
+    | **Task Suitability** | Better for small, repeated processes (e.g., web scripts) | Ideal for large tasks like running operating systems |
+
+- title: What are examples of programming languages in the C family?
+  content: |
+    - **C**: The foundational programming language, highly efficient and case-sensitive. Used for operating systems, embedded systems, and applications requiring high performance.
+    - **C++**: An extension of C that supports object-oriented programming. Commonly used in game development, real-time simulations, and software requiring high performance.
+    - **C#**: A modern, object-oriented language developed by Microsoft, often used in web and desktop application development, as well as game development with Unity.
+
+- title: What is Java and its significance?
+  content: |
+    **Java** is a compiled, case-sensitive, object-oriented programming language designed for portability. Its "write once, run anywhere" capability makes it popular for enterprise applications and Android development.
+
+- title: What are Python and JavaScript used for?
+  content: |
+    - **Python**: A versatile, interpreted programming language known for its readability and extensive libraries. Used in web development, data science, machine learning, and automation.
+    - **JavaScript**: An interpreted, high-level language primarily used for adding interactivity to websites. It can be used both client-side (in web browsers) and server-side (with Node.js).
+
+- title: What is HTML used for in programming?
+  content: |
+    **HTML (HyperText Markup Language)** is crucial for structuring and displaying content on web pages. It is primarily case-insensitive and uses tags to define elements on a page.
+
+- title: What are the conclusions about interpreted and compiled programming languages?
+  content: |
+    Interpreted programming languages execute source code through an interpreter, making them suitable for repetitive tasks on browsers or operating systems. Compiled programming languages create executable files for larger programs, like operating systems. Each has its advantages and specific use cases, making them essential tools in a developer's toolkit.

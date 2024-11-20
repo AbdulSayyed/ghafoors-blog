@@ -1,0 +1,71 @@
+- title: How does AI enhance requirements gathering and analysis in SDLC?
+  content: |
+    AI enhances requirements gathering and analysis by:
+    - Automating user requirements analysis and identifying patterns in large datasets.
+    - Using NLP to extract meaningful insights from natural language requirements, improving documentation quality.
+    - Validating requirements by checking for inconsistencies or errors against predefined criteria.
+
+- title: How does AI contribute to the design and architecture phase in SDLC?
+  content: |
+    AI contributes to the design and architecture phase by:
+    - Providing recommendations for optimal software architecture based on historical data and best practices.
+    - Enhancing system performance and scalability through AI-driven design analysis.
+    - Utilizing AI-based design patterns and frameworks for reusable and high-quality solutions.
+
+- title: What role does AI play in the development phase of SDLC?
+  content: |
+    AI plays a significant role in the development phase by:
+    - Assisting in code generation using ML models to analyze patterns and generate accurate code snippets.
+    - Speeding up development with AI-powered code completion and suggestion tools.
+    - Improving code quality through static analysis tools that identify bugs, vulnerabilities, and coding standard violations.
+
+- title: How does AI improve testing and quality assurance in SDLC?
+  content: |
+    AI improves testing and quality assurance by:
+    - Automating test case generation and execution to save time and increase coverage.
+    - Analysing code changes to identify high-risk areas for targeted regression testing.
+    - Predicting potential defects by analysing historical project data, enhancing testing efficiency.
+
+- title: How does AI optimize the deployment phase in SDLC?
+  content: |
+    AI optimizes the deployment phase by:
+    - Automating deployment processes for consistent and error-free rollouts.
+    - Monitoring software performance post-deployment and alerting for abnormalities.
+
+- title: How does AI assist in the maintenance phase of SDLC?
+  content: |
+    AI assists in the maintenance phase by:
+    - Analyzing log files and user feedback to identify patterns and predict potential issues.
+    - Providing recommendations for code optimization and fixes for reported bugs.
+
+- title: What is the role of AI in DevOps?
+  content: |
+    AI plays a crucial role in DevOps by:
+    - Enabling intelligent release management by predicting system performance impacts.
+    - Enhancing continuous monitoring for optimizing performance and reliability.
+    - Streamlining decision-making and minimizing human error in software releases.
+
+- title: What are the key benefits of integrating AI into the SDLC?
+  content: |
+    Key benefits of integrating AI into the SDLC include:
+    - Automation of processes.
+    - Improved decision-making.
+    - Enhanced software quality and reliability.
+    - Streamlined workflows and increased efficiency.
+    - Informed decisions throughout the software development lifecycle.
+
+- title: How does AI use NLP in requirements gathering?
+  content: |
+    AI uses NLP to extract and analyze user needs, identify patterns, and validate requirements against criteria.
+
+- title: How does AI automate deployment processes?
+  content: |
+    AI automates deployment processes, monitors performance, and provides real-time alerts for anomalies.
+
+- title: What are the benefits of AI in DevOps?
+  content: |
+    AI enhances DevOps by enabling intelligent release management, continuous performance monitoring, and reducing human errors.
+
+- title: How does AI assist in code generation?
+  content: |
+    AI analyzes existing code patterns using ML to generate accurate and error-free code snippets.

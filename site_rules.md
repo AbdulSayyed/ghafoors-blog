@@ -105,6 +105,13 @@ node remove-section-number.js
 3. It will remove all sections numbers present at the end of the heading.
 4. Make sure your heading `##` are correctly formatted, then run vscode extension to add the headings number. Once they are added use the script to replace them at the front.
 
+```txt
+// workflow:
+1. remove all section numbers at the end by running `node remove-section-number.js ./<file-name>`
+2. Add section numbers at the beginning by running vscode extension.
+3. Replace them at the end by running `node update-heading.js ./<file-name>`
+```
+
 ### Vscode Related Settings (1.6)
 
 1. Create `.vscod` folder in the root directory. Add `settings.json` and `extensions.json` files in it.
@@ -129,6 +136,18 @@ node remove-section-number.js
 ### What is Set in .markdownlint File ? (1.7)
 
 - The `.markdownlint.json` file is kept in a root folder of the project. It is used to set the rules for markdownlint. The rules are set as shown below. It is a symbol link present in home directory of the machine `~/.markdownlint.json`.
+- For this extension to work you need to include its address in settings.json file as shown below.
+
+```json
+{
+  "markdownlint.config": "~/.markdownlint.json"
+}
+// or
+ "markdownlint.config": {
+      "extends": "/home/ghafoor/.markdownlint.json",
+    }
+```
+
 - If an new rule is added, its reason should be included in this site_rules.md file under this section in the following format.
 
 ```json
