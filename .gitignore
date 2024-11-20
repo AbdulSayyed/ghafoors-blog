@@ -1,6 +1,7 @@
 +.hugo_build.lock
 hugo_stats.json
 gh-pages-old.workingyaml
+*.pdf
 
 
 
