@@ -19,6 +19,7 @@ categories:
 tags:
 #  -
 images:
+  - /images/se/mod2/webdev.jpg
 #  -
 # menu:
 #   main:
