@@ -19,6 +19,7 @@ categories:
 tags:
 #  -
 images:
+ - /images/se/mod3/program.jpeg
 #  -
 # menu:
 #   main:
