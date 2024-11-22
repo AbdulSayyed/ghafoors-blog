@@ -13,7 +13,7 @@ nav_weight: 5
 #   color: '#e24d0e'
 series:
   - Docs
-  - IBM-FD
+  - IBM-FSD
 categories:
 #  -
 tags:
@@ -43,17 +43,19 @@ Tokens play a vital role in generative AI models, influencing how text is proces
 
 - Token Limits: AI models have a predefined limit on the number of tokens they can process in a single operation. For example, GPT-4 has limits such as 8,000 or 32,000 tokens, depending on the version. This limit includes both input and output tokens.
 
-- Exploring Tokens: Tokens define the scope of interactions with generative AI models. Understanding their structure helps optimize model usage and ensures adherence to size restrictions.
+#### Exploring Tokens
 
-### Tools for Token Exploration
+Tokens define the scope of interactions with generative AI models. Understanding their structure helps optimize model usage and ensures adherence to size restrictions.
 
-Several tools assist in analyzing and understanding token usage in text:
+#### Tools for Token Exploration
 
-- OpenAI Tokenizer: A web-based tool to visualize how text is split into tokens for OpenAI models.
-- Hugging Face Tokenizer: Allows users to experiment with various tokenization algorithms, including those for specific models like GPT and BERT.
-- Python Libraries: Tools like `tiktoken` (for OpenAI) or `tokenizers` (from Hugging Face) enable programmatic token exploration.
+Several tools assist in analysing and understanding token usage in text:
 
-### Counting Tokens
+1. OpenAI Tokenizer: A web-based tool to visualize how text is split into tokens for OpenAI models.
+2. Hugging Face Tokenizer: Allows users to experiment with various tokenization algorithms, including those for specific models like GPT and BERT.
+3. Python Libraries: Tools like `tiktoken` (for OpenAI) or `tokenizers` (from Hugging Face) enable programmatic token exploration.
+
+#### Counting Tokens
 
 Counting tokens involves determining how a given text is divided into units for processing:
 
@@ -112,4 +114,4 @@ Tokens are the building blocks of text processing in AI models. They influence h
 
 ## FAQ
 
-{{< bs/accordion " " >}}
+{{< bs/accordion "gai.tokens.faq" >}}

@@ -4,7 +4,20 @@
 
 - title: What are token limits in AI APIs?
   content: |
-    Requests can employ up to 4097 tokens shared between the prompt and completion, depending on the model. For example, if the prompt consists of 4000 tokens, the completion can contain a maximum of 97 tokens. Creative ways to work within this limit include condensing the prompt or breaking the text into smaller chunks.
+    Requests for OpenAI's language models are constrained by a token limit shared between the prompt and completion, which depends on the `model's context window`. For example, the `text-davinci-003 model` has a 4097-token limit. If the prompt uses 4000 tokens, the completion can use a maximum of 97 tokens. Creative solutions to stay within these constraints include condensing the prompt or splitting the text into smaller chunks. Always verify the token limit specific to the model in use.
+
+- title: Give example of different models' token limits 
+  content: |
+    Model-Specific Token Limits:
+      - The token limit of 4097 is specific to certain models like text-davinci-003.
+    Other models, such as GPT-4 or GPT-3.5, have different limits. For example:
+        - GPT-4 (8k context): 8192 tokens.
+        - GPT-4 (32k context): 32,768 tokens.
+        - GPT-3.5-turbo: 4096 tokens.
+    Dependent on Context Window:
+      - The exact token limit depends on the model's context window, which varies across OpenAI's offerings.
+    Exact Token Distribution:
+      - The 4097-token limit includes not just the prompt and completion, but also other factors like system messages in chat-based models. This is relevant if the model adds instructions or metadata automatically.
 
 - title: How is token pricing structured?
   content: |
