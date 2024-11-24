@@ -8,6 +8,7 @@
   - [Use Markdownlint to Check Custom Styles (1.4)](#use-markdownlint-to-check-custom-styles-14)
   - [Use Custom Script to Replace Section Numbering (1.5)](#use-custom-script-to-replace-section-numbering-15)
   - [Vscode Related Settings (1.6)](#vscode-related-settings-16)
+    - [Themes in vscode (1.6.1)](#themes-in-vscode-161)
   - [What is Set in .markdownlint File ? (1.7)](#what-is-set-in-markdownlint-file--17)
   - [How New index.md Files are Created ? (1.8)](#how-new-indexmd-files-are-created--18)
 
@@ -131,7 +132,39 @@ node remove-section-number.js
 
 > These are ids, which can be copied from the extensions page.
 
-3. Settings.json file would include project specific settings. It is mostly used to include tasks for example, if this project needs to run a compiler.
+3. Settings.json file would include project specific settings. It is mostly used to include tasks for example, if this project needs to run a compiler. Do not include other workspace related settings here, but in `workspace` file present in the root folder.
+
+#### Themes in vscode (1.6.1)
+
+- Use `Dracula` theme in vscode. It is a dark theme and is easy on the eyes. It is used by many developers and is a popular theme.
+- Its setting is present in the `settings.json` file as shown below.
+
+```json
+{
+  "workbench.colorTheme": "Dracula",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 24,
+  "editor.letterSpacing": 0.5,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 2,
+  "editor.renderWhitespace": "all",
+  "editor.renderControlCharacters": true,
+  "editor.renderIndentGuides": true,
+  "editor.renderLineHighlight": "all",
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [80, 120],
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.wrappingIndent": "same",
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true
+}
+```
 
 ### What is Set in .markdownlint File ? (1.7)
 

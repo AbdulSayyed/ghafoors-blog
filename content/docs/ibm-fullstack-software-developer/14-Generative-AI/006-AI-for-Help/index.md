@@ -37,8 +37,29 @@ images:
 AI is transforming software development by automating tasks and improving efficiency in the following ways:
 
 - Code Completion: Tools powered by AI suggest accurate code snippets, saving time and enhancing coding accuracy.
-- Automated Code Review and Bug Detection: AI analyzes code quality, identifies bugs, and recommends improvements, ensuring better software quality.
+- Automated Code Review and Bug Detection: AI analyses code quality, identifies bugs, and recommends improvements, ensuring better software quality.
 - Code Refactoring and Optimization: Machine learning algorithms identify redundant or inefficient code segments, offering suggestions to improve maintainability, readability, and performance.
+
+### AI for Technical Support
+
+- AI-powered chatbots use natural language processing (NLP) to respond to developer queries.
+- These chatbots provide instant technical assistance, eliminating the need for extensive searches or waiting for human support.
+- Example: Chatbots can suggest solutions, such as converting strings to uppercase in Python.
+
+### AI for Technical Documentation
+
+- AI simplifies technical documentation using NLP algorithms.
+- These tools summarize complex concepts and generate clear, concise explanations.
+- NLP models, trained on large datasets, assist in creating user-friendly documentation.
+
+### Popular AI Coding Tools
+
+- **ChatGPT**: Assists in writing and debugging code, responding to queries, and enhancing understanding.
+- **CodeT5**: Generates code from prompts, translates code between languages, and summarizes code.
+- **IBM Watson X Code Assistant**: Generates high-quality code based on natural language inputs or source code.
+- **OpenAI CodeX**: Completes code intelligently across multiple programming languages.
+- **Tabnine**: Suggests full functions and lines of code based on syntax and patterns.
+- **GitHub Copilot**: Acts as an AI pair programmer, integrating with popular code editors.
 
 ### Implementing Design Patterns with AI
 

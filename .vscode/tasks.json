@@ -1,0 +1,39 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Dev Server",
+      "type": "shell",
+      "command": "npm run dev",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Start the Hugo development server"
+    },
+    {
+      "label": "Prod Server",
+      "type": "shell",
+      "command": "npm run prod",
+      "detail": "Start the Hugo production server"
+    },
+    {
+      "label": "Check Space Rules",
+      "type": "shell",
+      "command": "npm run check-space",
+      "detail": "Run markdownlint for heading-space-check.js"
+    },
+    {
+      "label": "Check AP Style",
+      "type": "shell",
+      "command": "npm run check-apstyle",
+      "detail": "Run markdownlint for heading-apstyle-check.js"
+    },
+    {
+      "label": "Remove Section Numbers",
+      "type": "shell",
+      "command": "npm run remove-section-number",
+      "detail": "Run the script to remove section numbers"
+    }
+  ]
+}

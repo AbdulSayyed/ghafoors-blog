@@ -8,18 +8,95 @@
 		"markdown-pdf.styles": [
 			"pdf-output/markdown-pdf.css",
 		],
-			"markdown-pdf.outputDirectory": "pdf-output",
-			"markdown-pdf.outputDirectoryRelativePathFile": false,
-			"markdown-pdf.margin.left": "20mm",
-			"markdown-pdf.margin.bottom": "15mm",
-			"markdown-pdf.margin.right": "10mm",
-			"markdown-pdf.margin.top": "15mm",
-			"markdown-pdf.executablePath": "/usr/bin/google-chrome",
-			"markdown-pdf.headerTemplate": "<div style=\"font-size: 9px; margin-left: 25.4mm;text-align:center;color:lightgrey\"> <span>Candidate Name: Sulaiman Ahmed Sayyed</span></div> <div style=\"font-size: 9px; margin-left: auto; margin-right: 50mm;color:lightgrey\">Candidate Number:</div>",
-			"markdown-pdf.footerTemplate": "<div style=\"font-size: 9px; margin: 0 auto;\">Page <span class='pageNumber'></span> of <span class='totalPages'></span></div>",
-			"markdown-pdf.mermaidServer": "https://unpkg.com/mermaid@9.4.3/dist/mermaid.min.js",
+		"markdown-pdf.outputDirectory": "pdf-output",
+		"markdown-pdf.outputDirectoryRelativePathFile": false,
+		"markdown-pdf.margin.left": "20mm",
+		"markdown-pdf.margin.bottom": "15mm",
+		"markdown-pdf.margin.right": "10mm",
+		"markdown-pdf.margin.top": "15mm",
+		"markdown-pdf.executablePath": "/usr/bin/google-chrome",
+		"markdown-pdf.headerTemplate": "<div style=\"font-size: 9px; margin-left: 25.4mm;text-align:center;color:lightgrey\"> <span>Candidate Name: Sulaiman Ahmed Sayyed</span></div> <div style=\"font-size: 9px; margin-left: auto; margin-right: 50mm;color:lightgrey\">Candidate Number:</div>",
+		"markdown-pdf.footerTemplate": "<div style=\"font-size: 9px; margin: 0 auto;\">Page <span class='pageNumber'></span> of <span class='totalPages'></span></div>",
+		"markdown-pdf.mermaidServer": "https://unpkg.com/mermaid@9.4.3/dist/mermaid.min.js",
 		"workbench.colorTheme": "Dracula Theme",
+		"editor.fontFamily": "'MesloLGS Nerd Font', 'Fira Code'",
+		"editor.fontLigatures": true,
+		"editor.fontSize": 14,
+		"editor.lineHeight": 24,
+		"editor.letterSpacing": 0.5,
+		"editor.cursorBlinking": "solid",
+		"editor.cursorStyle": "line",
+		"editor.cursorWidth": 2,
+		"editor.renderControlCharacters": true,
+		"editor.renderLineHighlight": "gutter",
+		"editor.renderWhitespace": "all",
+		"editor.rulers": [
+			80,
+			120
+		],
+		"editor.tabSize": 2,
+		"editor.wordWrap": "on",
+		"editor.wrappingIndent": "same",
+		"editor.minimap.enabled": false,
+		"editor.formatOnSave": true,
+		"editor.formatOnPaste": true,
+		"editor.formatOnType": true,
+		"workbench.editor.splitInGroupLayout": "horizontal",
 		"CodeGPT.apiKey": "CodeGPT Plus Beta",
-	},
+		"editor.guides.indentation": true,
+		// "editor.renderLineHighlight": "gutter",
+		"workbench.colorCustomizations": {
+			"editor.lineHighlightBackground": "#44475a",
+			"editor.lineHighlightBorder": "#818877"
+		},
+		/*
+    ToDo Tree
+    */
+		"todo-tree.regex.regex": "((//|#|<!--|;|/\\*|^)\\s*($TAGS)|^//\\s*\\[x\\]|^//\\s*\\[ \\])",
+		//"todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+		"todo-tree.general.tags": [
+			"BUG",
+			"HACK",
+			"FIXME",
+			"TODO",
+			"XXX",
+			"[ ]",
+			"[x]",
+			"[//]",
+			"[//]: # ()",
+		],
+		"todo-tree.highlights.customHighlight": {
+			"[x]": {
+				"foreground": "#64dd17",
+				"background": "#008800"
+			},
+			"[ ]": {
+				"foreground": "#f44336",
+				"background": "#592c2c",
+			},
+		},
+		"todo-tree.filtering.excludeGlobs": [
+			"**/vendor/**",
+			"**/node_modules/**",
+			"**/dist/**",
+			"**/bower_components/**",
+			"**/build/**",
+			"**/.vscode/**",
+			"**/.github/**",
+			"**/_output/**",
+			"**/*.min.*",
+			"**/*.map"
+		],
+		"editor.tokenColorCustomizations": {
+			"textMateRules": [
+				{
+					"scope": "comment",
+					"settings": {
+						"foreground": "#61ad49", // Yellow text
+						"fontStyle": "italic"
+					}
+				}
+			]
+		}
+	}
 }
-		

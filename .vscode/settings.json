@@ -1,4 +1,14 @@
 {
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.printWidth": 80,
+    "prettier.tabWidth": 2,
+    "prettier.useTabs": false,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "es5",
+    "editor.formatOnSave": true,
     "cSpell.words": [
         "adsense",
         "apstyle",
@@ -9,9 +19,12 @@
         "color",
         "Coursera",
         "Datalog",
+        "dbeaver",
         "disqus",
         "Eich",
         "ENDP",
+        "Fira",
+        "FIXIT",
         "fsdc",
         "fullhuman",
         "giscus",
@@ -40,19 +53,9 @@
         "suliblog",
         "Suliblogs",
         "tabler",
+        "Tabnine",
         "twbs",
         "vscod",
         "yzhang"
     ],
-    "[markdown]": {
-        "editor.wordWrap": "on",
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "prettier.printWidth": 80,
-    "prettier.tabWidth": 2,
-    "prettier.useTabs": false,
-    "prettier.singleQuote": true,
-    "prettier.trailingComma": "es5",
-    "editor.formatOnSave": true,
-
 }
