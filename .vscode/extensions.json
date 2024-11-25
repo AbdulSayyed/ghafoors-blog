@@ -1,12 +1,16 @@
 {
     "recommendations": [
         "yzhang.markdown-all-in-one",
+        "yzane.markdown-pdf",
         "davidanson.vscode-markdownlint",
         "bierner.markdown-preview-github-styles",
-        "yzane.markdown-pdf",
-        "tomoki1207.pdf",
+        "Xenny.markdown-table",
         "shd101wyy.markdown-preview-enhanced",
+        "robole.marky-dynamic",
+        // The above are markdown extensions
         "streetsidesoftware.code-spell-checker",
-        "Xenny.markdown-table"
+        "streetsidesoftware.code-spell-checker-cspell-bundled-dictionaries",
+        // These two are for spell checking
+        "tomoki1207.pdf"
     ]
 }

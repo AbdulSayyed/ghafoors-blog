@@ -21,19 +21,39 @@
       "label": "Check Space Rules",
       "type": "shell",
       "command": "npm run check-space",
-      "detail": "Run markdownlint for heading-space-check.js"
+      "detail": "Run markdownlint for helper/heading-space-check.js"
     },
     {
       "label": "Check AP Style",
       "type": "shell",
       "command": "npm run check-apstyle",
-      "detail": "Run markdownlint for heading-apstyle-check.js"
+      "detail": "Run markdownlint for helper/heading-apstyle-check.js"
     },
     {
       "label": "Remove Section Numbers",
       "type": "shell",
       "command": "npm run remove-section-number",
+      "args": [
+        "${input:destinationFile}"
+      ],
       "detail": "Run the script to remove section numbers"
+    },
+    {
+      "label": "Update Heading",
+      "type": "shell",
+      "command": "npm run update-heading",
+      "args": [
+        "${input:destinationFile}"
+      ],
+      "detail": "Run the script to update heading numbers"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "destinationFile",
+      "type": "promptString",
+      "description": "Enter the destination file name (e.g., ./path/to/file.md)"
     }
   ]
 }
+//FIX: The commands are not running from tasks.json as I moved the scripts to helper folder.

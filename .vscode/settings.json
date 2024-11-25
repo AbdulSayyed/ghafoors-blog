@@ -34,6 +34,7 @@
         "hugomods",
         "Hugopress",
         "iname",
+        "Jimdo",
         "jmooring",
         "linters",
         "markdownify",
@@ -42,6 +43,7 @@
         "Mockups",
         "Monokai",
         "navs",
+        "precaching",
         "PROC",
         "purgecss",
         "Razon",
@@ -55,7 +57,9 @@
         "tabler",
         "Tabnine",
         "twbs",
+        "Visily",
         "vscod",
+        "Webflow",
         "yzhang"
     ],
 }

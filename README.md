@@ -8,14 +8,14 @@ Our [cards style theme](https://github.com/hbstack/theme-cards) is available now
 
 ## Documentation 1.2
 
-| English | 简体中文 |
-| ------- | -------- |
+| English                                                                     | 简体中文                                                                    |
+| --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | [Prerequisites](https://hbstack.dev/en/docs/getting-started/prerequisites/) | [先决条件](https://hbstack.dev/zh-hans/docs/getting-started/prerequisites/) |
-| [Installation](https://hbstack.dev/en/docs/getting-started/installation/) | [安裝](https://hbstack.dev/zh-hans/docs/getting-started/installation/) |
-| [Configuration](https://hbstack.dev/en/docs/configuration/) | [配置](https://hbstack.dev/zh-hans/docs/configuration/) |
-| [Content](https://hbstack.dev/en/docs/content/) | [内容](https://hbstack.dev/zh-hans/docs/content/) |
-| [Deployment](https://hbstack.dev/en/docs/deployment/) | [部署](https://hbstack.dev/zh-hans/docs/deployment/) |
-| [Modules](https://hbstack.dev/en/docs/modules/) | [模块](https://hbstack.dev/zh-hans/docs/modules/) |
+| [Installation](https://hbstack.dev/en/docs/getting-started/installation/)   | [安裝](https://hbstack.dev/zh-hans/docs/getting-started/installation/)      |
+| [Configuration](https://hbstack.dev/en/docs/configuration/)                 | [配置](https://hbstack.dev/zh-hans/docs/configuration/)                     |
+| [Content](https://hbstack.dev/en/docs/content/)                             | [内容](https://hbstack.dev/zh-hans/docs/content/)                           |
+| [Deployment](https://hbstack.dev/en/docs/deployment/)                       | [部署](https://hbstack.dev/zh-hans/docs/deployment/)                        |
+| [Modules](https://hbstack.dev/en/docs/modules/)                             | [模块](https://hbstack.dev/zh-hans/docs/modules/)                           |
 
 ## Features 1.3
 
@@ -24,7 +24,7 @@ Our [cards style theme](https://github.com/hbstack/theme-cards) is available now
 - **Responsive**: mobile first, built on top of Bootstrap v5.3.
 - :ice_cube: **Modular** and **flexible**: extend features via various modules.
 - :first_quarter_moon: **Dark mode**: light, dark or auto (follow system).
-- :mag: **Search**: powerful client side *fuzzy* search that allows *filtering* and *sorting* of results, as well as searching from all multilingual sites.
+- :mag: **Search**: powerful client side _fuzzy_ search that allows _filtering_ and _sorting_ of results, as well as searching from all multilingual sites.
 - **PurgeCSS**: remove unused CSS.
 - :rocket: **PWA**:
   - Installable: add site to home screen.
@@ -42,7 +42,7 @@ Our [cards style theme](https://github.com/hbstack/theme-cards) is available now
 - **Menus**: supports header menus and footer menus.
 - Related posts slide.
 - :framed_picture: Image viewer: zoom in/out image.
-- :card_index_dividers:	**Archives**: group by year and month.
+- :card_index_dividers: **Archives**: group by year and month.
 - :memo: **Multiple authors**: articles can be co-authored.
 - :globe_with_meridians: **Multilingual**.
 - :arrow_left: **RTL**: supports Right-to-Left languages.

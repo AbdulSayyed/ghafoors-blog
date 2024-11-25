@@ -1,5 +1,5 @@
 ---
-title: '007 Assignment'
+title: 'Assignment'
 # linkTitle:
 date: 2024-11-23T21:52:26Z
 draft: true
