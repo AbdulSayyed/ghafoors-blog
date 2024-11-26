@@ -32,8 +32,6 @@ images:
 
 ## Leveraging AI in Software Development
 
-### AI-Powered Technical Assistance
-
 AI is transforming software development by automating tasks and improving efficiency in the following ways:
 
 - Code Completion: Tools powered by AI suggest accurate code snippets, saving time and enhancing coding accuracy.
@@ -54,12 +52,12 @@ AI is transforming software development by automating tasks and improving effici
 
 ### Popular AI Coding Tools
 
-- **ChatGPT**: Assists in writing and debugging code, responding to queries, and enhancing understanding.
-- **CodeT5**: Generates code from prompts, translates code between languages, and summarizes code.
-- **IBM Watson X Code Assistant**: Generates high-quality code based on natural language inputs or source code.
-- **OpenAI CodeX**: Completes code intelligently across multiple programming languages.
-- **Tabnine**: Suggests full functions and lines of code based on syntax and patterns.
-- **GitHub Copilot**: Acts as an AI pair programmer, integrating with popular code editors.
+- ChatGPT: Assists in writing and debugging code, responding to queries, and enhancing understanding.
+- CodeT5: Generates code from prompts, translates code between languages, and summarizes code.
+- IBM Watson X Code Assistant: Generates high-quality code based on natural language inputs or source code.
+- OpenAI CodeX: Completes code intelligently across multiple programming languages.
+- Tabnine: Suggests full functions and lines of code based on syntax and patterns.
+- GitHub Copilot: Acts as an AI pair programmer, integrating with popular code editors.
 
 ### Implementing Design Patterns with AI
 
@@ -104,4 +102,4 @@ AI plays a pivotal role in modernizing software development by automating proces
 
 ## FAQ
 
-{{< bs/accordion " " >}}
+{{< bs/accordion "gai.support.faq" >}}

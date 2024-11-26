@@ -1,12 +1,12 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: Generative AI Module Summary
 # linkTitle:
-date: {{ .Date }}
+date: 2024-11-26T04:15:47Z
 draft: true
-description: 
+description:
 noindex: false
 # comments: false
-nav_weight: 1
+nav_weight: 13
 # nav_icon:
 #   vendor: bootstrap
 #   name: toggles
@@ -14,11 +14,11 @@ nav_weight: 1
 series:
   - Docs
 categories:
-#  - 
+#  -
 tags:
-#  - 
+#  -
 images:
-#  - 
+#  -
 # menu:
 #   main:
 #     weight: 100

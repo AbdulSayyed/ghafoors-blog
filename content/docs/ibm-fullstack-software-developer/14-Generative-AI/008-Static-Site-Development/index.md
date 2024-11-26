@@ -99,17 +99,4 @@ AI streamlines website design, delivering a polished and visually appealing onli
 
 ### FAQ (1.8)
 
-**Q: What are the benefits of AI-generated static websites?**  
-A: AI-generated static websites offer swift loading, heightened security, simpler maintenance, uniform design standards, enhanced productivity, improved accessibility, and customization options.
-
-**Q: What is the AI procedural process for generating static websites?**  
-A: The process involves preference sharing, input interpretation, site design, customization, code optimization, and deployment.
-
-**Q: What are some popular AI tools for website building?**  
-A: Popular AI tools include GPT, TeleportHQ, Visily, Framer X, Wix ADI, Webflow, Sketch2React, Shopify, and Jimdo.
-
-**Q: What are the limitations of AI-generated websites?**  
-A: Limitations include standardization issues and limited control over the output, potentially resulting in generic-looking websites.
-
-**Q: How does AI enhance productivity in web development?**  
-A: AI enhances productivity by handling repetitive tasks, enabling developers to accomplish more in less time.
+{{< bs/accordion "gai.staticsite.faq" >}}
