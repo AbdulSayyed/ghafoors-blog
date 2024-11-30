@@ -27,7 +27,8 @@
 			"editor.lineHighlightBackground": "#2f3036",
 			"editor.lineHighlightBorder": "#7d807b",
 			"editorCursor.foreground": "#FF5733", // Replace with your desired color code
-			"editorCursor.background": "#FFFFFF" // Optional for block cursors
+			"editorCursor.background": "#FFFFFF", // Optional for block cursors
+			"editorWhitespace.foreground": "#615e5e"
 		},
 		// To open new editor in a new group
 		"workbench.editor.splitInGroupLayout": "horizontal",

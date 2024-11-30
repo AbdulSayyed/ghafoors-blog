@@ -54,3 +54,15 @@ The IBM Full Stack Software Developer Certificate offers several key advantages:
 This certificate is ideal for individuals looking to gain practical knowledge and hands-on experience in Full Stack Development and cloud technologies. By combining theoretical learning with applied skills, it prepares participants to meet the demands of modern software development roles.
 
 For more information, visit the [IBM Full Stack Software Developer course on Coursera](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer).
+
+### Usage of Snackbar module of Hbstack
+
+snackbar.add('This is a snackbar message', {
+timeout: 5000,
+actionText: 'Close',
+actionHandler: function() {
+snackbar.remove();
+}
+});
+
+[//]: # ( Learn how to use Snackbar module of Hbstack in the [Snackbar documentation](/docs/hbstack/snackbar). )

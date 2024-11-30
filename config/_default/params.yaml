@@ -130,6 +130,13 @@ hugopress:
       hooks:
         hb-blog-sidebar:
           weight: 2
+# see https://hugomods.com/en/docs/configurations/#config-toggle-module.
+bootstrap:
+  config_toggle:
+    langs:
+      - yaml
+      - toml 
+      - json 
 
 icons:
   throw_on_error: false

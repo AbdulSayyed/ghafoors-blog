@@ -30,6 +30,12 @@ images:
 #         color: '#e24d0e'
 ---
 
+{{% bs/lead %}}
+Software engineering is a structured, scientific field focused on creating scalable, reliable software systems. Software engineers handle broad, systematic roles, while software developers concentrate on specific, functional coding tasks. Adopting engineering principles and tools like CASE and SDLC has improved the quality and scalability of modern software solutions.
+{{% /bs/lead %}}
+
+<!--More-->
+
 ### What is Software engineering?
 
 - **Definition**: Software engineering is the application of scientific principles to software design, development, and maintenance.
@@ -106,16 +112,18 @@ A software engineer’s tasks often involve:
 
 ## Conclusion
 
-In summary:
-
-- Software engineering is a structured, scientific field focused on creating scalable, reliable software systems.
-- Software engineers handle broad, systematic roles, while software developers concentrate on specific, functional coding tasks.
-- Adopting engineering principles and tools like CASE and SDLC has improved the quality and scalability of modern software solutions.
-
 ---
 
 > Stay tuned for more on the **Software Development Lifecycle** and common roles in software engineering!
 
+ <!-- {{< bs/article-cards limit=3 >}} -->
+
 ## FAQ
+
+{{< bs/config-toggle filename=hugo title="Configuration" style=pills fill=true >}}
+{
+"hello": "world"
+}
+{{< /bs/config-toggle >}}
 
 {{< bs/accordion "software-eng.faq" >}}
