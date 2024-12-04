@@ -20,7 +20,7 @@ Assembly language is a low-level programming language that provides a direct int
 - MIPS: Found in embedded systems.
 - x86: Common in personal computers.
 
-## Interpreted Programming Languages Definition (2.) (2)
+## Interpreted Programming Languages Definition (2.) 
 
 - Interpreted languages, sometimes called **scripted languages**, rely on an **interpreter** to execute code.
 - The interpreter translates **human-readable source code** into machine code at runtime.
@@ -73,4 +73,4 @@ Assembly language is a low-level programming language that provides a direct int
 
 ---
 
-## Compiled Programming Languages Definition (3.) (3)
+

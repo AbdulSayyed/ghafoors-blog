@@ -1,6 +1,6 @@
 ---
-title: 'Assignment'
-# linkTitle:
+title: Assignment
+linkTitle: Database Design
 date: 2024-11-23T21:52:26Z
 draft: true
 description:

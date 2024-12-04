@@ -1,6 +1,6 @@
 ---
-title: 'Design Diagrams'
-# linkTitle:
+title: Design Diagrams
+linkTitle: Design Diagrams
 date: 2024-11-25T00:07:27Z
 draft: true
 description:

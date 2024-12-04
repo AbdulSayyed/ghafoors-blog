@@ -7,6 +7,7 @@
   - [Content Headings (1.3)](#content-headings-13)
   - [Use Markdownlint to Check Custom Styles (1.4)](#use-markdownlint-to-check-custom-styles-14)
   - [Use Custom Script to Replace Section Numbering (1.5)](#use-custom-script-to-replace-section-numbering-15)
+    - [Content structure (1.5.1)](#content-structure-151)
   - [Vscode Related Settings (1.6)](#vscode-related-settings-16)
   - [Themes in vscode (1.7)](#themes-in-vscode-17)
   - [What is Set in .markdownlint File ? (1.8)](#what-is-set-in-markdownlint-file--18)
@@ -130,6 +131,27 @@ node remove-section-number.js
 2. Add section numbers at the beginning by running vscode extension.
 3. Replace them at the end by running `node update-heading.js ./<file-name>`
 ```
+
+#### Content structure (1.5.1)
+
+- The docs contents follow the pattern as shown below:
+
+```txt
+
+---
+front matter 
+--- 
+Summary. Consist of at least 500 words. The word summary should not be present this summary is used when docs page is generated. If it is less than 500 hundreds words it would include the other contents as well.
+
+<!--more-->
+Content.
+
+<!-- more -->
+
+## FAQ
+{{< bs/accordion >}}
+```
+
 
 ### Vscode Related Settings (1.6)
 

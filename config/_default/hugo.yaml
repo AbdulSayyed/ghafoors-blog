@@ -1,9 +1,10 @@
-baseURL: https://github.com/AbdulSayyed/ghafoors-blog.git
+#baseURL: https://github.com/AbdulSayyed/ghafoors-blog.git
+baseURL: http://localhost:1313/
 title: Ghafoor's Personal blogs
 # Copyright, the {year} is the placeholder of this year.
 copyright: "Copyright © 2022-{year} [Hugo Modules](https://hugomods.com/) and [HB Framework](https://hbstack.dev/). All Rights Reserved."
 defaultContentLanguage: en
-defaultContentLanguageInSubdir: true # disable this to remove the default language code from URL, i.e. /en/docs -> /docs.
+#defaultContentLanguageInSubdir: true # disable this to remove the default language code from URL, i.e. /en/docs -> /docs.
 enableRobotsTXT: true
 timeout: 120s # images processing takes a long time, it's recommended to commit the resources folder for improve the build performance.
 enableEmoji: true
@@ -18,13 +19,13 @@ permalinks:
 outputs:
   home:
     - HTML
-    - Offline        # required by PWA module for displaying the offline pages.
+    - Offline # required by PWA module for displaying the offline pages.
     - RSS
-    - SearchIndex    # required by search module.
+    - SearchIndex # required by search module.
     - WebAppManifest # required by PWA module to make your site installable.
 
 taxonomies:
-  authors: authors     # single author.
+  authors: authors # single author.
   tags: tags
   categories: categories
   series: series
@@ -49,18 +50,18 @@ markup:
 related:
   includeNewer: true
   indices:
-  - name: keywords
-    weight: 100
-  - name: tags
-    weight: 80
-  - name: categories
-    weight: 60
-  - name: series
-    weight: 60
-  - name: authors
-    weight: 10
-  - name: date
-    weight: 10
+    - name: keywords
+      weight: 100
+    - name: tags
+      weight: 80
+    - name: categories
+      weight: 60
+    - name: series
+      weight: 60
+    - name: authors
+      weight: 10
+    - name: date
+      weight: 10
   threshold: 10 # for testing, increase it to suit your case.
   toLower: false
 
@@ -70,4 +71,3 @@ security:
       - ^HUGO
       - CI$
       - PWD
-

@@ -1,6 +1,6 @@
 ---
-title: 'Static Site Development'
-# linkTitle:
+title: Static Site Development
+linkTitle: Static Site Development
 date: 2024-11-24T23:20:03Z
 draft: true
 description:

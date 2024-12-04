@@ -1,0 +1,26 @@
+- title: What are GANs?
+  content: GANs, or Generative Adversarial Networks, are a type of artificial intelligence that creates new data that looks like it came from a real dataset. Think of GANs as a team of two neural networks playing a creative game.
+
+- title: Who are the two players in GANs?
+  content: |
+    The two players in GANs are:
+      1. **Generator**: The "artist" whose job is to create fake data, such as images or sounds, that look like real data.
+      2. **Discriminator**: The "detective" whose job is to examine the data (real and fake) and decide whether it's genuine or created by the generator.
+
+- title: How do GANs work?
+  content: GANs work through a process where the generator creates random, fake data, the discriminator checks the data and says, "This is fake!" or "This is real!" The generator learns from this feedback and tries to make its fake data better. This process repeats until the generator's fake data is so realistic that even the discriminator can't tell it's fake.
+
+- title: Can you give an example of what GANs can do?
+  content: Yes, for example, if you give a GAN real photos of human faces to learn from, the generator will create fake human faces, and the discriminator will compare these to real faces and give feedback. Over time, the generator creates faces that look very real.
+
+- title: What are some applications of GANs?
+  content: |
+    Applications of GANs include:
+      - Image Generation: Creating realistic images, such as generating faces, landscapes, or even art.
+      - Data Augmentation: Making more training data for AI by generating synthetic examples.
+      - Style Transfer: Changing the style of an image, like turning a photo into a painting.
+      - Gaming: Generating realistic textures or environments.
+      - Healthcare: Generating synthetic medical images to help train AI models.
+
+- title: Can you provide a simple analogy to explain GANs?
+  content: Imagine a forger (generator) trying to make counterfeit money and a police officer (discriminator) trying to catch the fakes. The forger gets better at copying real money as the police officer improves at spotting fakes. Eventually, the forger's work is so good, it's indistinguishable from real money. This continuous competition helps GANs learn to create highly realistic data.
