@@ -1,0 +1,91 @@
+- title: Features of Python Language
+  content: |
+    **Python** is a high-level, interpreted programming language known for its readability and versatility. It is widely used in web development, data analysis, artificial intelligence, scientific computing, and more. Here are some key concepts and features of Python:
+
+    | Feature | Description |
+    |---------|-------------|
+    | **Interpreted Language** | Python code is executed line by line by the Python interpreter, which checks for errors as it goes. This allows for rapid development and testing. |
+    | **Dynamic Typing** | Python uses dynamic typing, meaning you don't have to declare variable types explicitly. The type of a variable is determined at runtime based on the value assigned to it. |
+    | **Indentation** | Python uses indentation to define code blocks, such as loops and functions. This enforces a clean and readable coding style. |
+    | **Object-Oriented** | Python supports object-oriented programming (OOP) concepts like classes, objects, and inheritance. This makes it easy to write reusable and modular code. |
+    | **Extensive Standard Library** | Python comes with a large standard library that provides support for many common tasks, such as file I/O, networking, and data processing. |
+    | **Third-Party Libraries** | Python has a rich ecosystem of third-party libraries and frameworks that extend its capabilities. These libraries cover a wide range of domains, from web development to machine learning. |
+    | **Community Support** | Python has a large and active community of developers who contribute to its growth and development. This community provides resources, tutorials, and support for Python users of all levels. |
+    | **Cross-Platform** | Python code can run on various operating systems, including Windows, macOS, and Linux, making it a versatile choice for developing applications that need to be deployed on different platforms. |
+    | **Versatile Applications** | Python is used in a wide range of applications, from web development (Django, Flask) to data analysis (Pandas, NumPy) to artificial intelligence (TensorFlow, PyTorch). |
+- title: Fundamental Key Terms in Python Language
+  content: |
+    | **Term**      | **Definition**                                                                                         | **Example**                                                                                   |
+    |---------------|-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+    | **Literals**  | Fixed values assigned to variables or directly used in expressions.                                    | `5` (integer), `3.14` (float), `"Hello"` (string), `True` (boolean), `[1, 2, 3]` (list)      |
+    | **Axioms**    | Foundational, universally accepted principles or rules that form the basis of the language semantics.  | - "Indentation defines blocks of code." <br> - "Everything in Python is an object."           |
+    | **Keywords**  | Reserved words that have special meanings and cannot be used as identifiers.                          | `if`, `else`, `for`, `while`, `def`, `class`, `import`, `return`, `with`, etc.                |
+    | **Operators** | Symbols or words that perform operations on variables or values.                                       | `+` (addition), `-` (subtraction), `*` (multiplication), `and`, `or`, `not`                   |
+    | **Data Types**| Types of data Python can manipulate, like numbers, strings, lists, etc.                                | `int`, `float`, `str`, `list`, `tuple`, `dict`, `set`, `bool`                                 |
+    | **Identifiers**| Names used to identify variables, functions, classes, etc.                                           | `x`, `y`, `function_name`, `MyClass`                                                         |
+    | **Expressions**| Combinations of values, variables, and operators that Python evaluates to produce a result.           | `x + 5`, `len(my_list)`, `True and False`                                                     |
+    | **Statements**| Instructions that Python executes, like assignments or function calls.                                | `x = 5`, `print("Hello")`, `if x > 0:`                                                        |
+    | **Functions** | Reusable blocks of code designed to perform specific tasks.                                            | ```python<br>def add(a, b):<br> return a + b```                                               |
+    | **Classes**   | Blueprints for creating objects, encapsulating data and behavior.                                      | ```python<br>class Dog:<br> def __init__(self, name):<br> self.name = name```                 |
+    | **Objects**   | Instances of classes that hold data and methods defined by the class.                                  | ```python<br>dog = Dog("Buddy")```                                                            |
+- title: 1. Literals
+  content: |
+    Literals are the simplest building blocks of a programming language, representing constant values.
+
+    | **Type of Literal**      | **Description**                                                                                  | **Examples**                                  |
+    |--------------------------|--------------------------------------------------------------------------------------------------|-----------------------------------------------|
+    | **Numeric Literals**     | Numbers (integers, floats, complex).                                                             | `42` (int), `3.14` (float), `1+2j` (complex) |
+    | **String Literals**      | Text enclosed in quotes.                                                                         | `"Hello"`, `'Python'`                         |
+    | **Boolean Literals**     | Logical values.                                                                                  | `True`, `False`                               |
+    | **Special Literals**     | Denote the absence of value.                                                                     | `None`                                        |
+    | **Collection Literals**  | Represent collections such as lists, tuples, sets, and dictionaries.                             | `[1, 2, 3]`, `(1, 2)`, `{1, 2, 3}`, `{"key": "value"}` |
+- title: 2. Axioms of Python
+  content: |
+    Axioms are foundational principles or "rules of the game" for Python.
+
+    | **Python Axiom**                                   | **Explanation**                                                                                 |
+    |----------------------------------------------------|-------------------------------------------------------------------------------------------------|
+    | **Indentation defines code blocks.**               | Unlike braces `{}` in many languages, Python uses indentation to denote code hierarchy.         |
+    | **Everything is an object.**                       | Python treats everything (e.g., numbers, strings, functions) as objects with properties.        |
+    | **Dynamic typing.**                                | Variable types are determined at runtime, not explicitly declared by the programmer.            |
+    | **Strong typing.**                                 | Python enforces type correctness and won't automatically convert incompatible types.            |
+    | **Readability counts (The Zen of Python).**        | Python emphasizes code readability and simple syntax as a guiding design philosophy.            |
+- title: 3. Examples of Expressions, Statements, and Constructs
+  content: |
+    | **Concept**           | **Example**                                                                                  |
+    |-----------------------|-----------------------------------------------------------------------------------------------|
+    | **Expression**        | `x + y` evaluates to the sum of `x` and `y`.                                                  |
+    | **Statement**         | `x = 5` assigns the value `5` to the variable `x`.                                            |
+    | **Looping Construct** | `for i in range(3): print(i)` outputs `0`, `1`, `2`.                         |
+    | **Conditional**       | `if x > 0: print("Positive") else: print("Non-positive")`            |
+- title: 4. Common Data Types in Python
+  content: |
+    | **Data Type** | **Description**                                                                                   | **Example**                                  |
+    |--------------|---------------------------------------------------------------------------------------------------|-----------------------------------------------|
+    | **int**      | Integer values like `42` or `-10`.                                                                | `42`, `-10`                                  |
+    | **float**    | Floating-point numbers with decimal points.                                                      | `3.14`, `2.718`                              |
+    | **str**      | Sequence of characters enclosed in quotes.                                                        | `"Hello"`, `'Python'`                        |
+    | **bool**     | Boolean values representing `True` or `False`.                                                    | `True`, `False`                              |
+    | **list**     | Ordered collection of items.                                                                      | `[1, 2, 3]`, `["a", "b", "c"]`               |
+    | **tuple**    | Immutable ordered collection of items.                                                           | `(1, 2, 3)`, `("a", "b", "c")`               |
+    | **dict**     | Unordered collection of key-value pairs.                                                         | `{"key1": "value1", "key2": "value2"}`       |
+    | **set**      | Unordered collection of unique items.                                                            | `{1, 2, 3}`, `{"apple", "banana", "cherry"}` |
+- title: 5. Control Flow in Python
+  content: |
+    | **Control Structure** | **Description**                                                                                   | **Example**                                  |
+    |-----------------------|---------------------------------------------------------------------------------------------------|-----------------------------------------------|
+    | **if-elif-else**      | Conditional branching based on logical conditions.                                                | ```python<br>if x > 0:<br> print("Positive")<br>elif x == 0:<br> print("Zero")<br>else:<br> print("Negative")``` |
+    | **for loop**          | Iterates over a sequence (e.g., list, tuple, string) or other iterable objects.                   | ```python<br>for i in range(5):<br> print(i)``` |
+    | **while loop**        | Repeats a block of code as long as a specified condition is true.                                 | ```python<br>while x < 10:<br> print(x)<br> x += 1``` |
+    | **break statement**   | Exits the loop prematurely based on a condition.                                                  | ```python<br>for i in range(10):<br> if i == 5:<br> break``` |
+    | **continue statement**| Skips the rest of the loop's code and continues with the next iteration.                          | ```python<br>for i in range(10):<br> if i % 2 == 0:<br> continue<br> print(i)``` |
+    | **pass statement**   | Placeholder that does nothing. Useful as a placeholder in empty code blocks.                      | ```python<br>if x < 0:<br> pass```           |
+
+- title: Glossary of Key Python Terms
+  content: |
+    | **Term**     | **Definition**                                                                                           |
+    |--------------|---------------------------------------------------------------------------------------------------------|
+    | **Dynamic Typing** | Variables can hold any data type, and the type can change dynamically.                             |
+    | **Interpreter** | Python code is executed line-by-line by the Python interpreter.                                       |
+    | **PEP**       | Python Enhancement Proposals define and standardize Python's design and features.                      |
+    | **The Zen**   | A collection of principles for writing Pythonic code, accessed with `import this`.                     |
