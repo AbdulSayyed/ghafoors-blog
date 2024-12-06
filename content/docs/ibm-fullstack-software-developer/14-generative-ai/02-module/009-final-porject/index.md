@@ -340,3 +340,20 @@ user-service/
 
 {{% details "View Answer" %}}
 {{% /details %}}
+
+
+---
+
+### Prompts given
+
+
+
+
+---
+
+## FAQ 
+
+
+## Exam - FAQ
+
+{{< bs/accordion "gai.assignment.faq" >}}

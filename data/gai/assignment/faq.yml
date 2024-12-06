@@ -1,0 +1,139 @@
+- title: What are the challenges of integrating AI into an existing CI toolchain?
+  content: |
+    - Transitioning from traditional CI to AI-enhanced CI
+    - Ensuring seamless integration
+    - Addressing data privacy and security concerns
+    - None of the above
+
+- title: Which company utilizes machine learning for autonomous adjustments in various services?
+  content: |
+    - Juniper Networks
+    - Gmail
+    - Balbix Security Cloud
+    - IBM
+
+- title: Which tool utilizes GPT to analyze HTTP requests and responses for detecting vulnerabilities?
+  content: |
+    - Symantec Endpoint Security
+    - BurpGPT
+    - Splunk User Behavior Analytics
+    - Sophos Intercept X
+
+- title: What is one major challenge associated with using generative AI in software development?
+  content: |
+    - The lack of creativity and exploration opportunities.
+    - The absence of ethical implications.
+    - The guarantee of privacy and security.
+    - The potential for bias and inaccuracy in generated outputs.
+
+- title: Which of these are examples of successful AI-driven apps?
+  content: |
+    - Facebook and Twitter
+    - Netflix and Hulu
+    - TikTok and Instagram
+    - Siri and Alexa
+
+- title: What is one concern associated with generative AI models in software development?
+  content: |
+    - The potential for spreading false information
+    - The ability to create synthetic vocal recordings
+    - The requirement to obtain informed consent from users
+    - The need for extensive training data
+
+- title: Which of the following is a technique AI-powered code review tools used to analyze source code without executing it and identify potential issues such as coding style violations, unused variables, or memory leaks?
+  content: |
+    - Static analysis
+    - Bug detection
+    - Automated log analysis
+    - Predictive debugging
+
+- title: What is one of the key capabilities of Large Language Models (LLMs) in software development?
+  content: |
+    - Social media analysis
+    - Code generation and auto-completion
+    - Hardware optimization
+    - Image recognition
+
+- title: Which of the following AI-driven approaches involves applying AI techniques for code refactoring?
+  content: |
+    - Code analysis
+    - Code automation
+    - Anomaly detection
+    - Design pattern analysis
+
+- title: What feature of AI web builders helps in swiftly creating professional logos?
+  content: |
+    - AI logo maker
+    - AI website generator
+    - A text generator
+    - Additional SEO measures
+
+- title: How does AI contribute to email security, particularly in filtering spam?
+  content: |
+    - Avoiding the use of spam filters
+    - Machine learning and AI algorithms
+    - Ignoring potentially harmful content
+    - Manually reviewing each email
+
+- title: How can ethical concerns related to NLP technology be addressed?
+  content: |
+    - By ignoring privacy concerns
+    - By avoiding transparency in algorithms
+    - By introducing bias intentionally
+    - By ensuring diversity in training data
+
+- title: Which of the following statements about the use of AI in software testing is true?
+  content: |
+    - AI algorithms only improve test data generation.
+    - AI analysis cannot help prioritize test cases based on software quality.
+    - AI techniques are limited to automating test case generation.
+    - AI-based techniques enable intelligent test generation and execution of test cases along with other capabilities.
+
+- title: Which of the following is a technique used by AI-powered code review tools?
+  content: |
+    - Code pattern analysis
+    - Automated log analysis
+    - Static analysis
+    - Social media analysis
+
+- title: Which of the following is a role played by AI in CI/CD?
+  content: |
+    - Predictive debugging
+    - Bias detection
+    - Automated Testing and Quality Assurance
+    - Manual Code Review
+
+- title: What are some challenges associated with using generative AI in software development?
+  content: |
+    - Low computational power required for training generative AI models
+    - Limited creativity and exploration options
+    - Lack of intellectual property protection
+    - Potential for bias and inaccuracy in generated outputs
+
+- title: Which of the following is mentioned as an ethical consideration for using generative AI in software development?
+  content: |
+    - Bias and Discrimination
+    - Speed and efficiency
+    - Code automation
+    - Test case generation
+
+- title: Which of the following is an example of a generative AI model that excels in language translation tasks?
+  content: |
+    - Variational autoencoders (VAEs)
+    - Generative adversarial networks (GANs)
+    - Reinforcement learning algorithms
+    - Transformers
+
+- title: What is one of the challenges associated with the ethical usage of Large Language Models in software development?
+  content: |
+    - Hardware limitations
+    - Code optimization
+    - Speed of code generation
+    - Bias detection
+
+- title: How does AI assists in implementing design patterns in software systems?
+  content: |
+    - Generating high-level architecture
+    - Automating client chat services
+    - Analyzing code for architectural patterns
+    - Analyzing code for design patterns

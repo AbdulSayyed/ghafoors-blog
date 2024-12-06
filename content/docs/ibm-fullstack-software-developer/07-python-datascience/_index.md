@@ -5,5 +5,5 @@ nav_weight: 7
 nav_icon:
   vendor: bs
   name: book-half
-  color: gray
+  color: magenta
 ---
