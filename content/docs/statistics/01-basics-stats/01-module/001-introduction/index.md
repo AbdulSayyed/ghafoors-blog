@@ -34,7 +34,7 @@ Summary.
 
 <!--More-->
 
-[//]: # ' Clean this file keep only what is statistics about, taken from sayyedblog.com'
+[//]: # ' Clean this file keep only what is statistics about, taken from sayyedblog.com. Also create a new folder for images in static/images/. the folder /stats/ have been entered into .gitignore file. It has images which are not to be used online '
 
 ## What is statistics?
 
