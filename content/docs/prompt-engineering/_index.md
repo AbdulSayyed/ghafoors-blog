@@ -5,5 +5,5 @@ title: 'prompt engineering'
 nav_icon:
   vendor: bs
   name: book-half
-  color: green
+  color: black-500
 ---

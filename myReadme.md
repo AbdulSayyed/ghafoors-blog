@@ -4,7 +4,7 @@
 
 ### 1.1. Step 1. Cloning and running
 
-- Cloned in `suliblog` under `~/Documents/projects/hbstack/`.
+- Cloned in `ghafoors-blog` under `~/Documents/projects/hbstack/`.
 - Changed `go.mod` top entry to point to `module github.com/AbdulSayyed/suliblog`.
 - To get the prerequisite run `npm i @hbstack/node-packages` following the instructions.
 - Running with `npm run dev`. First time errors, second time started. Most errors are dart sass related, they are warning not errors.
@@ -17,7 +17,7 @@
 - Run `find . -iname _index.zh-hans.md -ls |more` to make sure which files will be deleted.
 - Run `find . -iname _index.zh-hans.md -exec /bin/rm {} \;` to delete all the files starting with `_index...`.
 - Also run `find . -iname index.zh-hans.md` to see which files are to be deleted followed by `find . -iname index.zh-hans.md -exec /bin/rm {} \;` to delete other files.
-- Git status changed `✔ ~/Documents/projects/hbstack/suliblog [main|● 65✚ 4…2]` which says 65 files are deleted, and 2 untracked files
+- Git status changed `✔ ~/Documents/projects/hbstack/ghafoors-blog [main|● 65✚ 4…2]` which says 65 files are deleted, and 2 untracked files
 - Since we do not need hbstack `.git`, delete this folder. Run `git init .`, add all files `git aa` and finally make first commit `git cm "Initial commit`.
 - Make a new repo on github and push the repo.
 
@@ -129,8 +129,9 @@
 - First two lines are changed as shown below.
 
 ```yaml
-baseURL: https://github.com/AbdulSayyed/ghafoors-blog.git
-title: Suli blogs
+#baseURL: https://github.com/AbdulSayyed/ghafoors-blog.git
+baseURL: http://localhost:1313/
+title: Ghafoor's Personal blogs
 ```
 
 #### 1.4.2. Languages.yaml
@@ -196,8 +197,8 @@ zh-hans:
 
 - In Hugo files which starts from `_` are necessary to maintain folder structure. The `_index.md` file is a special file in Hugo, used to define content for a list page (such as a section, taxonomy, or homepage) rather than a single content page. In Hugo a section denotes the directory under `content` folder.
 - Section Index Pages: When placed in a directory, `_index.md` defines the content and metadata for that section's index page. For example, placing `_index.md` in the content/ folder would define the content section, similarly an `_index.md` under content/blog/ directory would define what is present under `blog` folder and how it is to organised.
-- Home Page: An \_index.md file in the root of the content/ directory will define the content for the homepage.
-- Taxonomy Pages: When used in taxonomy directories (like tags or categories), \_index.md defines the layout and content for the list page of that taxonomy.
+- Home Page: An `_index.md` file in the root of the content/ directory will define the content for the homepage.
+- Taxonomy Pages: When used in taxonomy directories (like tags or categories), `_index.md` defines the layout and content for the list page of that taxonomy.
 
 #### 1.5.2. Creating posts directory structure
 
