@@ -1,5 +1,5 @@
 ---
-title: '001 Llm Types'
+title: 'LLM Types'
 # linkTitle:
 date: 2024-12-12T03:53:21Z
 draft: true

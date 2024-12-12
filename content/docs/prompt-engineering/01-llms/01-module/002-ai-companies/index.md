@@ -6,7 +6,7 @@ draft: true
 description:
 noindex: false
 # comments: false
-nav_weight: 1
+nav_weight: 2
 # nav_icon:
 #   vendor: bootstrap
 #   name: toggles
