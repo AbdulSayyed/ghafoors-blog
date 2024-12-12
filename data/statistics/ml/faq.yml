@@ -1,0 +1,27 @@
+- title: What is iris dataset?
+  content: |
+    The Iris dataset is one of the most famous datasets in machine learning, introduced by statistician Ronald Fisher in 1936. It contains measurements of three different species of iris flowers:
+      1. Iris Setosa
+      2. Iris Versicolor
+      3. Iris Virginica
+    
+    For each flower, four features are measured (in centimetres):
+      1. Sepal length
+      2. Sepal width
+      3. Petal length
+      4. Petal width
+    
+    The dataset consists of 150 samples, with 50 samples from each species. It's particularly useful for learning machine learning concepts because:
+      - It's small but well-structured
+      - The problem is straightforward: classify flowers into three species
+      - It's a good example of multi-class classification
+      - The data is relatively clean and complete
+      - This makes it an ideal "Hello World" dataset for machine learning, demonstrating concepts like classification, feature analysis, and model evaluation.
+
+- title: What is MNIST dataset?
+  content: |
+    The MNIST dataset is a classic dataset in the field of machine learning. It is a dataset that contains 70,000 samples of handwritten digits from 0 to 9. Each sample is a 28x28 pixel image of a handwritten digit. The dataset is commonly used for classification tasks, such as recognizing handwritten digits. The dataset is often used as a benchmark for evaluating machine learning algorithms.
+
+- title: What is CIFAR-10 dataset?
+  content: |
+    The CIFAR-10 dataset is a classic dataset in the field of machine learning. It is a dataset that contains 60,000 samples of 32x32 pixel images in 10 different classes. The classes include common objects such as airplanes, automobiles, birds, cats, and so on. The dataset is commonly used for image classification tasks. The dataset is often used as a benchmark for evaluating machine learning algorithms.

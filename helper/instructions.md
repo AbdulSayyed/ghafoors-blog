@@ -9,25 +9,50 @@ npm run check-space
 ### How to use remove-section-number.js
 
 - node remove-section-number.js ./file/name/with-path
-- node remove-section-number.js ../content/docs/ibm-fullstack-software-developer/14-generative-ai/02-module/002-security-tools/index.md 
+- node remove-section-number.js ../content/docs/ibm-fullstack-software-developer/14-generative-ai/02-module/002-security-tools/index.md
 
 ### How to use update-section-number.js
 
 - node update-section-number.js ./file/name/with-path
 
+### Format of Categories, Series, and tags
+
+- Keep this format
+
+```txt
+series:
+  - Docs
+  - Ml # keep only first letter capital
+categories:
+  - Machine-Learning # use hypen in categories to keep different
+#  -
+tags:
+  - SDLC
+```
+
+### How to use images
+
+- They are kept in `/static/images/` folders.
+- The names must be in lowercase, separated by hypen. Kee the name short but descriptive.
+- To put the border around them and emborse or embec copy right messages use the file `imagify.py` preesnt in `images` folder. you need to be in this folder to run the command.
+- The command input is `python imagify.py stats/basic/<filename.png>`. It will create the process file with the same name in the `output` folder underneath.
+- Three types of images can be used `.png, jpeg, .webp`. If you only give the folder name it will apply the formatting to all files present it the folder.
+- Make sure the `output` is empty before you use it.
+- Also use some platfrom and regenerate the images to make it different from what you have if they are not original or give credit to the original creator.
+- Try using common sense.
 
 ### Hbstack theme Features
 
 1. Use `details` shortcode to display some contents in details which are initially hidden. Code blocks can be used here as well.
 
-```text
+````text
 {{% details "View more answer" %}}
 
 ```text
 {{% /details "View more answer" %}}
 Some text no matter how long it is.
 {{% details  %}}
-```
+````
 
 2. To show static contents other than markdown files, use `files` shortcode
 
@@ -38,7 +63,7 @@ Some text no matter how long it is.
 ```
 
 - It can also be combined with toggles
-  
+
 ```text
 {{< bs/config-toggle hugo >}}
 {{< file-content "data/hugo.yaml" >}}
@@ -47,7 +72,6 @@ Some text no matter how long it is.
 
 1. Use `toggle` shortcode to show file contents in [toml,yml,json] different languages.
 2. For more information [config toggle](https://hugomods.com/bootstrap/config-toggle/)
-
 
 ```text
 {{< bs/config-toggle hello >}}
@@ -63,7 +87,7 @@ Some text no matter how long it is.
 - External links are handled by hugo automatically.
 - If you want to open external links in new tab, use `target="_blank"` attribute in markdown file.
 
-```text 
+```text
 [OpenAI](https://openai.com "OpenAI"){:target="_blank"}
 ```
 
@@ -79,7 +103,6 @@ Some text no matter how long it is.
 ```
 
 ---
-
 
 ## Attribution and Disclaimer
 

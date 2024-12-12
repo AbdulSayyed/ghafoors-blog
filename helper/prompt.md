@@ -1,7 +1,8 @@
 ## Prompt: To add the given content coming from videos' scripts
+
 I need your help with the following task:
 
-Please take the audio script from the provided video file and summarize it. Ensure that the summary follows the tone and structured content of the reference file. The summary should be written from a first-person perspective. Once summarized, insert the content into the active file.
+Please take the audio script from the provided video file and summarize it in an structured format. Remove all the instruction about `Welcome, I, or we, etc`. Ensure that the content is easy to understand. Use more paragraphs than bullet points. Add a blank line after headings and subheadings. Do not use multiple headings without content in between. For example, avoid `## Heading 1` immediately followed by `## Heading 2`. Also do not use strong formatting followed by the bullet `-`. End contents with three dashes `---`.
 
 Thank you!
 

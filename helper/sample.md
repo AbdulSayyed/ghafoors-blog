@@ -1,6 +1,27 @@
+---
+- Front matter ignore this section present in yml format
+- The content below is the main content that needs to be updated
+---
+
+<!--Here comess the summary of at least 500 pages -->
+
+<!--Moreinfo -->
+
+<!-- Here comes the content starting with level two heading -->
+
+<!-- do not use the following, which contains a subheading after main heading when there are no content present in main headings -->
+
+```markdown
+## Main heading
+
+### Sub heading
+```
+
 ## Assembly Language Programming (1)
 
 Assembly language is a low-level programming language that provides a direct interface to a computer's hardware. It uses mnemonic codes and labels to represent machine-level code instructions, making it easier for humans to read and write. Each assembly language is specific to a particular computer architecture, allowing programmers to write highly efficient and optimized code. However, this also means that assembly language programs are not portable across different types of hardware. Writing in assembly language requires a deep understanding of the computer's architecture, including its instruction set, memory management, and input/output operations.
+
+<!-- Here comes the subheading followed by a heading number in parenthesis -->
 
 ### Syntax and Structure (1.1)
 
@@ -9,12 +30,16 @@ Assembly language is a low-level programming language that provides a direct int
   - Operands: Specify the data or location for the operation.
   - Comments: Optional explanations for clarity.
 
+<!-- Change the [citation:1] to [^1] -->
+
 ### Translation Process (1.2)
 
-- Translated by an assembler, not a compiler or interpreter.
+- Translated[^1] by an assembler, not a compiler or interpreter.
 - One assembly instruction corresponds directly to one machine code instruction.
 
 ### Examples of Assembly Languages (1.3)
+
+<!-- Do not use **- some content** bold formatting or strong formatting after '-' bullet -->
 
 - ARM: Used in mobile devices.
 - MIPS: Found in embedded systems.
@@ -80,3 +105,7 @@ Assembly language is a low-level programming language that provides a direct int
 3. The choice between assembly language and interpreted languages depends on the specific requirements of the project, including performance, development speed, and ease of maintenance.
    1. Assembly language is often used in embedded systems, device drivers, and real-time applications where performance is critical.
    2. Assembly language provides direct control over hardware resources, making it ideal for system-level programming and optimization.
+
+## References
+
+[^1]: [OpenAI](https://openai.com 'OpenAI')
